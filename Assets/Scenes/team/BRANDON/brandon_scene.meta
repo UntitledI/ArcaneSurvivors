@@ -1,8 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/PolygonDungeon/Scenes/Demo.unity.meta
 guid: 5defc57945cbf914aaefec85e9ccb060
 timeCreated: 1505961552
 licenseType: Store
+=======
+<<<<<<<< HEAD:Assets/PolygonNature/Shaders/LWRP.unitypackage.meta
+guid: d83f241364eceaf4081bf2b3ee6ee87b
+>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
 ========
 guid: 9fa5f148f7d51d34ca1c97cc622e3e1c
 folderAsset: yes

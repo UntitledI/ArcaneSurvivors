@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 trackSelection = true
 fetchPreview = true
 defaultFlags = 0
@@ -78,3 +79,6 @@ disabledIndexers = ""
 =======
 disabledIndexers = ""
 >>>>>>> aa669ed2 (Fixed Combat Anims)
+=======
+{}
+>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)

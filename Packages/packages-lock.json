@@ -1,6 +1,7 @@
 {
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "com.unity.cinemachine": {
       "version": "2.9.5",
       "depth": 0,
@@ -8,12 +9,17 @@
       "dependencies": {
         "com.unity.test-framework": "1.1.31"
 =======
+=======
+>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
     "com.unity.ai.navigation": {
       "version": "1.1.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.ai": "1.0.0"
+<<<<<<< HEAD
+>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
       },
       "url": "https://packages.unity.com"

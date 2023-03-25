@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Quirky Series Ultimate/FREE/Demo/Demo_Sparrow.unity.meta
 guid: a428ad98c5c71f747aaa1de7c121d7bc
+=======
+<<<<<<<< HEAD:Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkSoundEngine.bundle.dSYM/Contents/Info.plist.meta
+guid: 82fa939092a489140a7828aba048ccc3
+>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
 ========
 guid: 5fafca784231f554abb2e267e230cd04
 >>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy):Assets/Scenes/team/BRANDON/GameOverScreen.unity.meta

@@ -199,6 +199,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1304388264}
+    - targetCorrespondingSourceObject: {fileID: 115122, guid: 34b83af8a0225e843bbd8d660e0c2723,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1304388266}
   m_SourcePrefab: {fileID: 100100000, guid: 34b83af8a0225e843bbd8d660e0c2723, type: 3}
 --- !u!1 &1304388260 stripped
 GameObject:
@@ -225,7 +229,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1304388263}
-  radius: 50
+  radius: 100
+  sphereY: -15
+  collisionY: -15
+--- !u!114 &1304388266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304388260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcef3564e44c3cd43abe41f7a0fcc4c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particle: {fileID: 4040442929520023195, guid: 1b2c5c06292b35749a18d087f97dd6b4,
+    type: 3}
+  cooldown: 10
 --- !u!1 &1532263592
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +308,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dd1c3959cc08125438b89eecfa2c2a8f, type: 2}
+  - {fileID: 2100000, guid: 3da053a7ebd1be545bfb8b227602b7ec, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -562,7 +583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2143994331}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 44, y: 200, z: 420}
+  m_LocalPosition: {x: 44, y: 200, z: 220}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

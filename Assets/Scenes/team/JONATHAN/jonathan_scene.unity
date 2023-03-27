@@ -367,6 +367,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 5079313446598999134, guid: cee49152b63160b4c94c3a6b41795149,
         type: 3}
       propertyPath: m_LocalRotation.w
@@ -409,6 +410,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5079313447214726958, guid: cee49152b63160b4c94c3a6b41795149, type: 3}
+=======
+    m_RemovedComponents: []
+>>>>>>> a0fce318 (readded Character)
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -454,7 +458,11 @@ PrefabInstance:
     - target: {fileID: 4973089214769761108, guid: be6c3a02d55668f459253ff56d71b43d,
         type: 3}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD
       value: 0.15229033
+=======
+      value: 0.15229031
+>>>>>>> a0fce318 (readded Character)
       objectReference: {fileID: 0}
     - target: {fileID: 4973089214769761108, guid: be6c3a02d55668f459253ff56d71b43d,
         type: 3}
@@ -464,7 +472,11 @@ PrefabInstance:
     - target: {fileID: 4973089214769761108, guid: be6c3a02d55668f459253ff56d71b43d,
         type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: 0.02012227
+=======
+      value: 0.020122267
+>>>>>>> a0fce318 (readded Character)
       objectReference: {fileID: 0}
     - target: {fileID: 4973089214769761108, guid: be6c3a02d55668f459253ff56d71b43d,
         type: 3}
@@ -497,17 +509,29 @@ PrefabInstance:
     - target: {fileID: 8243577947728807980, guid: 87106676f0136384aa53425bc2dc68bf,
         type: 3}
       propertyPath: m_LocalRotation.x
+<<<<<<< HEAD
       value: 0.167596
+=======
+      value: 0.16759598
+>>>>>>> a0fce318 (readded Character)
       objectReference: {fileID: 0}
     - target: {fileID: 8243577947728807980, guid: 87106676f0136384aa53425bc2dc68bf,
         type: 3}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD
       value: -0.1291071
+=======
+      value: -0.12910709
+>>>>>>> a0fce318 (readded Character)
       objectReference: {fileID: 0}
     - target: {fileID: 8243577947728807980, guid: 87106676f0136384aa53425bc2dc68bf,
         type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
       value: 0.022144629
+=======
+      value: 0.022144621
+>>>>>>> a0fce318 (readded Character)
       objectReference: {fileID: 0}
     - target: {fileID: 8243577947941438149, guid: 87106676f0136384aa53425bc2dc68bf,
         type: 3}

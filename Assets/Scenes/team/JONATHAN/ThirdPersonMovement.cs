@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
+<<<<<<< HEAD
     //Essentials
     public CharacterController controller;
     public Transform cam;
@@ -70,6 +71,24 @@ public class ThirdPersonMovement : MonoBehaviour
 
         //Moves the character in the direction of the camera
         if (direction.magnitude >= 0.1f)
+=======
+    public CharacterController controller;
+    public Transform cam;
+    public float speed = 6f;
+    public float turnSmoothTime = 0.1f;
+    public float turnSmoothVelocity;
+
+    // Update is called once per frame
+    void Update()
+    {
+        //retrieves cursor coordinate input
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
+        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+
+        //Moves the character in the direction of the camera
+        if(direction.magnitude >= 0.1f)
+>>>>>>> 4a281c55 (readded Character)
         {
             //calculates the target angle the character is facing with the camera
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -81,6 +100,7 @@ public class ThirdPersonMovement : MonoBehaviour
             //moves the character in the direction of the camera
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             //Moves the character through characterController object
+<<<<<<< HEAD
             controller.Move(moveDir.normalized * trueSpeed * Time.deltaTime);
 
             //flags to determine when player is walking/sprinting
@@ -110,4 +130,10 @@ public class ThirdPersonMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
+=======
+            controller.Move(moveDir.normalized * speed * Time.deltaTime);
+
+        }
+    }
+>>>>>>> 4a281c55 (readded Character)
 }

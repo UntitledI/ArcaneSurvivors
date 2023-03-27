@@ -14,10 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 43
     width: 2498
     height: 1397
+=======
+    x: -18
+    y: 61
+    width: 2560
+    height: 1357
+>>>>>>> 6bed7c81 (adding even more assets)
   m_ShowMode: 4
 <<<<<<< HEAD
   m_Title: Inspector
@@ -27,7 +34,7 @@ MonoBehaviour:
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -124,10 +131,14 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 118
 =======
   controlID: 119
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+  controlID: 47
+>>>>>>> 6bed7c81 (adding even more assets)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -351,12 +362,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 514
     y: 73
 <<<<<<< HEAD
     width: 1523
     height: 734
 =======
+=======
+    x: 496
+    y: 91
+>>>>>>> 6bed7c81 (adding even more assets)
     width: 1649
     height: 825
 >>>>>>> dab6a7a3 (updates to boar animations)
@@ -692,6 +708,7 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 143.82463, y: -15.613443, z: -19.256733}
     speed: 2
     m_Value: {x: 143.82463, y: -15.613443, z: -19.256733}
@@ -700,6 +717,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 88.617004, y: 35.99099, z: 528.24316}
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    m_Target: {x: 58.768024, y: 13.147389, z: 620.29266}
+    speed: 2
+    m_Value: {x: 58.768024, y: 13.147389, z: 620.29266}
+>>>>>>> 6bed7c81 (adding even more assets)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -745,10 +767,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.06441614, y: 0.047525078, z: -0.006639833, w: -0.9951503}
+    m_Target: {x: 0.009276587, y: -0.01610916, z: 0.0010235261, w: 0.9981808}
     speed: 2
-    m_Value: {x: -0.06302499, y: 0.047611725, z: -0.0065796105, w: -0.9968539}
+    m_Value: {x: 0.009290328, y: -0.017635431, z: 0.0010391498, w: 0.99980074}
   m_Size:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: 80.249016
     speed: 2
@@ -758,6 +781,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 12.124355
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    m_Target: 10
+    speed: 2
+    m_Value: 10
+>>>>>>> 6bed7c81 (adding even more assets)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -803,12 +831,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
     y: 73
 <<<<<<< HEAD
     width: 479
     height: 734
 =======
+=======
+    x: -18
+    y: 91
+>>>>>>> 6bed7c81 (adding even more assets)
     width: 513
     height: 825
 >>>>>>> dab6a7a3 (updates to boar animations)
@@ -824,6 +857,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
       m_SelectedIDs: f4571000
       m_LastClickedID: 0
 <<<<<<< HEAD
@@ -839,6 +873,15 @@ MonoBehaviour:
         m_Name: Directional Light (1)
         m_OriginalName: Directional Light (1)
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+      m_SelectedIDs: 36dcfdff
+      m_LastClickedID: -140234
+      m_ExpandedIDs: 9c7ef8ffca72fdff36dcfdff80dcfdff84dcfdff88dcfdff8cdcfdff90dcfdff30e7fdff3ae7fdff02c9feff08c9feff22c9fefff2eefeff2cfbffff047d0000527d0000de870000
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+>>>>>>> 6bed7c81 (adding even more assets)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -846,13 +889,17 @@ MonoBehaviour:
           width: 0
           height: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
         m_UserData: 1071108
 =======
         m_UserData: -95680
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+        m_UserData: 0
+>>>>>>> 6bed7c81 (adding even more assets)
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -884,6 +931,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 468
     y: 73
     width: 1486
@@ -891,6 +939,10 @@ MonoBehaviour:
 =======
     x: 514
     y: 73
+=======
+    x: 496
+    y: 91
+>>>>>>> 6bed7c81 (adding even more assets)
     width: 1649
     height: 825
 >>>>>>> dab6a7a3 (updates to boar animations)
@@ -1023,10 +1075,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 504
-    y: 81
-    width: 1296
-    height: 705
+    x: 496
+    y: 91
+    width: 1649
+    height: 825
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1038,16 +1090,33 @@ MonoBehaviour:
     m_SaveData: []
   m_ViewTransforms:
     m_KeySerializationHelper:
-    - {fileID: -5602963042399094863, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
+    - {fileID: 1107938543538664628, guid: 264077771d56f6d4f806a98115c68e24, type: 2}
+    - {fileID: -648570932375842212, guid: a06e775a1f9b7ad44953485156dbea76, type: 2}
     m_ValueSerializationHelper:
+    - e00: 0.61374944
+      e01: 0
+      e02: 0
+      e03: 122.73053
+      e10: 0
+      e11: 0.61374944
+      e12: 0
+      e13: 613.38196
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
     - e00: 1
       e01: 0
       e02: 0
-      e03: 0
+      e03: 57
       e10: 0
       e11: 1
       e12: 0
-      e13: 0
+      e13: 98
       e20: 0
       e21: 0
       e22: 1
@@ -1057,10 +1126,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183,
+  m_AnimatorController: {fileID: 9100000, guid: 264077771d56f6d4f806a98115c68e24,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: -5602963042399094863, guid: 40db3173a05ae3242b1c182a09b0a183,
+  - m_Target: {fileID: 1107938543538664628, guid: 264077771d56f6d4f806a98115c68e24,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -1095,6 +1164,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 828
@@ -1102,6 +1172,10 @@ MonoBehaviour:
     height: 571
 =======
     y: 919
+=======
+    x: -18
+    y: 937
+>>>>>>> 6bed7c81 (adding even more assets)
     width: 2164
     height: 440
 >>>>>>> dab6a7a3 (updates to boar animations)
@@ -1128,10 +1202,14 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes/team/JONATHAN
 =======
     - Assets/Scenes/team/RAUL
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    - Assets/PolygonDungeon/Prefabs/Characters
+>>>>>>> 6bed7c81 (adding even more assets)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1139,15 +1217,20 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Scenes/team/JONATHAN
 =======
   - Assets/Scenes/team/RAUL
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+  - Assets/PolygonDungeon/Prefabs/Characters
+>>>>>>> 6bed7c81 (adding even more assets)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jonathan\Documents\GitHub\csc631-arcane-survivors
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 600}
     m_SelectedIDs: fe0b0000
@@ -1159,6 +1242,12 @@ MonoBehaviour:
     m_LastClickedID: 92660
     m_ExpandedIDs: 000000003aa7000052a7000060a70000644b0100764b0100e669010000ca9a3b
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    scrollPos: {x: 0, y: 128}
+    m_SelectedIDs: 10220100
+    m_LastClickedID: 74256
+    m_ExpandedIDs: 00000000f4950000f6950000f8950000fa950000789600008296000092960000d6960000d896000078980000e8210100fc21010000ca9a3b
+>>>>>>> 6bed7c81 (adding even more assets)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1186,7 +1275,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000f4950000f6950000f8950000fa950000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1214,7 +1303,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c62300001a6200002e8500003685000062880000c0880000ee850000e0850000c0850000da8a0000
+    m_ExpandedInstanceIDs: c62300001a6200002e8500003685000062880000c0880000ee850000e0850000c0850000da8a0000c09600006c980000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1297,12 +1386,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 2165
     y: 73
 <<<<<<< HEAD
     width: 492
     height: 1326
 =======
+=======
+    x: 2147
+    y: 91
+>>>>>>> 6bed7c81 (adding even more assets)
     width: 394
     height: 1286
 >>>>>>> dab6a7a3 (updates to boar animations)

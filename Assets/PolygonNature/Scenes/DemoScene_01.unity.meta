@@ -1,5 +1,10 @@
 fileFormatVersion: 2
-guid: d5673b812d5fa6d4abc53777e9b3fa6b
+<<<<<<< HEAD:Assets/PolygonNature/Scenes/DemoScene_01.unity.meta
+guid: 367caf9f2e9dacf4db0246f0b1a459d0
+=======
+guid: 98e03a1ea4d2ea4478376e533d09f21a
+folderAsset: yes
+>>>>>>> 456f0462 (base scene for character):Assets/Blink/Art/Animations.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

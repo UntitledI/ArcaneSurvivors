@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
 <<<<<<< HEAD
+<<<<<<< HEAD
     RecentlyUsedSceneGuid-0:
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -109,10 +110,14 @@ EditorUserSettings:
 =======
 =======
 >>>>>>> 2dd69085 (Animated Player)
+=======
+    RecentlyUsedSceneGuid-0:
+>>>>>>> a0fce318 (readded Character)
       value: 065457525d505902585e0f2440755d44474e4173757e77317a7c1f35b1e3353e
       flags: 0
     RecentlyUsedSceneGuid-1:
       value: 5752565554065a0c55085c77447b5e444116482c782a23332c781b32e0b7356c
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> a0fce318 (readded Character)
 =======
@@ -123,6 +128,9 @@ EditorUserSettings:
 =======
       flags: 0
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+      flags: 0
+>>>>>>> a0fce318 (readded Character)
     vcSharedLogLevel:
       value: 0d5e400f0650
       flags: 0

@@ -5,6 +5,7 @@ using UnityEngine;
 public class ThirdPersonMovement : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     //Essentials
     public CharacterController controller;
     public Transform cam;
@@ -72,12 +73,15 @@ public class ThirdPersonMovement : MonoBehaviour
         //Moves the character in the direction of the camera
         if (direction.magnitude >= 0.1f)
 =======
+=======
+>>>>>>> a0fce318 (readded Character)
     public CharacterController controller;
     public Transform cam;
     public float speed = 6f;
     public float turnSmoothTime = 0.1f;
     public float turnSmoothVelocity;
 
+<<<<<<< HEAD
     public Animator animator;
 
     void Start()
@@ -85,6 +89,8 @@ public class ThirdPersonMovement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+=======
+>>>>>>> a0fce318 (readded Character)
     // Update is called once per frame
     void Update()
     {
@@ -92,6 +98,7 @@ public class ThirdPersonMovement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+<<<<<<< HEAD
         //Moves the character in the direction of the camera
 <<<<<<< HEAD
         if(direction.magnitude >= 0.1f)
@@ -99,6 +106,11 @@ public class ThirdPersonMovement : MonoBehaviour
 =======
         if (direction.magnitude >= 0.1f)
 >>>>>>> b6e6f083 (Player Movement repush)
+=======
+
+        //Moves the character in the direction of the camera
+        if(direction.magnitude >= 0.1f)
+>>>>>>> a0fce318 (readded Character)
         {
             //calculates the target angle the character is facing with the camera
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -110,6 +122,7 @@ public class ThirdPersonMovement : MonoBehaviour
             //moves the character in the direction of the camera
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             //Moves the character through characterController object
+<<<<<<< HEAD
 <<<<<<< HEAD
             controller.Move(moveDir.normalized * trueSpeed * Time.deltaTime);
 
@@ -145,4 +158,10 @@ public class ThirdPersonMovement : MonoBehaviour
         }
     }
 >>>>>>> 4a281c55 (readded Character)
+=======
+            controller.Move(moveDir.normalized * speed * Time.deltaTime);
+
+        }
+    }
+>>>>>>> a0fce318 (readded Character)
 }

@@ -15,6 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 43
     width: 2498
@@ -25,6 +26,12 @@ MonoBehaviour:
     width: 2560
     height: 1357
 >>>>>>> 6bed7c81 (adding even more assets)
+=======
+    x: 8
+    y: 51
+    width: 2544
+    height: 1341
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_ShowMode: 4
 <<<<<<< HEAD
   m_Title: Inspector
@@ -55,8 +62,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 2498
     height: 1397
+=======
+    width: 2544
+    height: 1341
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -80,7 +92,11 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 2498
+=======
+    width: 2544
+>>>>>>> 29768d2b (Adding text overlay + changes)
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -101,8 +117,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 1377
     width: 2498
+=======
+    y: 1321
+    width: 2544
+>>>>>>> 29768d2b (Adding text overlay + changes)
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -125,6 +146,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 2498
     height: 1347
   m_MinSize: {x: 300, y: 100}
@@ -139,6 +161,14 @@ MonoBehaviour:
 =======
   controlID: 47
 >>>>>>> 6bed7c81 (adding even more assets)
+=======
+    width: 2544
+    height: 1291
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
+  vertical: 0
+  controlID: 122
+>>>>>>> 29768d2b (Adding text overlay + changes)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,6 +189,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 2005
     height: 1347
   m_MinSize: {x: 200, y: 100}
@@ -173,6 +204,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 48
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    width: 2175
+    height: 1291
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
+  vertical: 1
+  controlID: 52
+>>>>>>> 29768d2b (Adding text overlay + changes)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,6 +232,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 2005
     height: 755
   m_MinSize: {x: 200, y: 50}
@@ -207,6 +247,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 49
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    width: 2175
+    height: 741
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
+  vertical: 0
+  controlID: 53
+>>>>>>> 29768d2b (Adding text overlay + changes)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,6 +273,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 480
     height: 755
   m_MinSize: {x: 200, y: 200}
@@ -235,6 +284,12 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    width: 513
+    height: 741
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -255,8 +310,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 514
+    x: 513
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 1525
     height: 755
@@ -265,6 +321,10 @@ MonoBehaviour:
 =======
     width: 1651
     height: 846
+=======
+    width: 1662
+    height: 741
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
 >>>>>>> dab6a7a3 (updates to boar animations)
@@ -292,6 +352,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 755
     width: 2005
     height: 592
@@ -300,6 +361,11 @@ MonoBehaviour:
     width: 2165
     height: 461
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    y: 741
+    width: 2175
+    height: 550
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 16}
@@ -323,8 +389,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2165
+    x: 2175
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     width: 493
     height: 1347
@@ -333,6 +400,10 @@ MonoBehaviour:
 =======
     width: 395
     height: 1307
+=======
+    width: 369
+    height: 1291
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
 >>>>>>> dab6a7a3 (updates to boar animations)
@@ -363,6 +434,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 514
     y: 73
 <<<<<<< HEAD
@@ -376,6 +448,12 @@ MonoBehaviour:
     width: 1649
     height: 825
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    x: 521
+    y: 81
+    width: 1660
+    height: 720
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -709,6 +787,7 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 143.82463, y: -15.613443, z: -19.256733}
     speed: 2
     m_Value: {x: 143.82463, y: -15.613443, z: -19.256733}
@@ -722,6 +801,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 58.768024, y: 13.147389, z: 620.29266}
 >>>>>>> 6bed7c81 (adding even more assets)
+=======
+    m_Target: {x: 26.641058, y: 11.448608, z: 528.4448}
+    speed: 2
+    m_Value: {x: 26.641058, y: 11.448608, z: 528.4448}
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -767,10 +851,11 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.009276587, y: -0.01610916, z: 0.0010235261, w: 0.9981808}
+    m_Target: {x: -0.0431813, y: 0.73112375, z: -0.048126288, w: -0.67672217}
     speed: 2
-    m_Value: {x: 0.009290328, y: -0.017635431, z: 0.0010391498, w: 0.99980074}
+    m_Value: {x: -0.043180898, y: 0.733358, z: -0.04827131, w: -0.67675054}
   m_Size:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: 80.249016
@@ -786,6 +871,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 10
 >>>>>>> 6bed7c81 (adding even more assets)
+=======
+    m_Target: 1.5019577
+    speed: 2
+    m_Value: 1.5019577
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -832,6 +922,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
     y: 73
 <<<<<<< HEAD
@@ -845,6 +936,12 @@ MonoBehaviour:
     width: 513
     height: 825
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    x: 8
+    y: 81
+    width: 512
+    height: 720
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -856,6 +953,7 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
       m_SelectedIDs: f4571000
@@ -877,6 +975,12 @@ MonoBehaviour:
       m_SelectedIDs: 36dcfdff
       m_LastClickedID: -140234
       m_ExpandedIDs: 9c7ef8ffca72fdff36dcfdff80dcfdff84dcfdff88dcfdff8cdcfdff90dcfdff30e7fdff3ae7fdff02c9feff08c9feff22c9fefff2eefeff2cfbffff047d0000527d0000de870000
+=======
+      scrollPos: {x: 0, y: 60}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 36eefeff2cfbffff38aa0000e66b01009ec30100
+>>>>>>> 29768d2b (Adding text overlay + changes)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -932,6 +1036,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 468
     y: 73
     width: 1486
@@ -946,6 +1051,12 @@ MonoBehaviour:
     width: 1649
     height: 825
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    x: 521
+    y: 81
+    width: 1660
+    height: 720
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -962,10 +1073,14 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 1486, y: 713}
 =======
   m_TargetSize: {x: 1649, y: 804}
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+  m_TargetSize: {x: 1660, y: 699}
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -986,6 +1101,7 @@ MonoBehaviour:
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_HBaseRangeMin: -743
     m_HBaseRangeMax: 743
     m_VBaseRangeMin: -356.5
@@ -996,6 +1112,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -402
     m_VBaseRangeMax: 402
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    m_HBaseRangeMin: -830
+    m_HBaseRangeMax: 830
+    m_VBaseRangeMin: -349.5
+    m_VBaseRangeMax: 349.5
+>>>>>>> 29768d2b (Adding text overlay + changes)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1014,6 +1136,7 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1486
       height: 713
     m_Scale: {x: 1, y: 1}
@@ -1024,12 +1147,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 824.5, y: 402}
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+      width: 1660
+      height: 699
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 830, y: 349.5}
+>>>>>>> 29768d2b (Adding text overlay + changes)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
       x: -743
       y: -356.5
@@ -1047,6 +1177,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1649, y: 825}
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+      x: -830
+      y: -349.5
+      width: 1660
+      height: 699
+    m_MinimalGUI: 1
+  m_defaultScale: 1
+  m_LastWindowPixelSize: {x: 1660, y: 720}
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1165,6 +1304,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 828
@@ -1179,6 +1319,12 @@ MonoBehaviour:
     width: 2164
     height: 440
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    x: 8
+    y: 822
+    width: 2174
+    height: 529
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1203,6 +1349,7 @@ MonoBehaviour:
     m_Folders:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Scenes/team/JONATHAN
 =======
     - Assets/Scenes/team/RAUL
@@ -1210,12 +1357,16 @@ MonoBehaviour:
 =======
     - Assets/PolygonDungeon/Prefabs/Characters
 >>>>>>> 6bed7c81 (adding even more assets)
+=======
+    - Assets/SimpleFantasy/Prefabs/Characters
+>>>>>>> 29768d2b (Adding text overlay + changes)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - Assets/Scenes/team/JONATHAN
@@ -1225,11 +1376,15 @@ MonoBehaviour:
 =======
   - Assets/PolygonDungeon/Prefabs/Characters
 >>>>>>> 6bed7c81 (adding even more assets)
+=======
+  - Assets/SimpleFantasy/Prefabs/Characters
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jonathan\Documents\GitHub\csc631-arcane-survivors
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     scrollPos: {x: 0, y: 600}
@@ -1248,6 +1403,12 @@ MonoBehaviour:
     m_LastClickedID: 74256
     m_ExpandedIDs: 00000000f4950000f6950000f8950000fa950000789600008296000092960000d6960000d896000078980000e8210100fc21010000ca9a3b
 >>>>>>> 6bed7c81 (adding even more assets)
+=======
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 4c670500
+    m_LastClickedID: 354124
+    m_ExpandedIDs: 00000000aa620500ac620500ae620500b0620500b2620500b4620500b6620500b8620500bc620500be620500c0620500c2620500c86205000e6405001e64050000ca9a3b
+>>>>>>> 29768d2b (Adding text overlay + changes)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1275,7 +1436,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4950000f6950000f8950000fa950000
+    m_ExpandedIDs: 00000000a8620500aa620500ac620500ae620500b0620500b2620500b4620500b6620500b8620500ba620500bc620500be620500c0620500c2620500c4620500c6620500c8620500
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1352,10 +1513,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 806
-    width: 2004
-    height: 553
+    x: 210
+    y: 883
+    width: 1553
+    height: 338
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1387,6 +1548,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 2165
     y: 73
 <<<<<<< HEAD
@@ -1400,6 +1562,12 @@ MonoBehaviour:
     width: 394
     height: 1286
 >>>>>>> dab6a7a3 (updates to boar animations)
+=======
+    x: 2183
+    y: 81
+    width: 368
+    height: 1270
+>>>>>>> 29768d2b (Adding text overlay + changes)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1416,7 +1584,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 270
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

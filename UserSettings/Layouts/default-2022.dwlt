@@ -45,8 +45,12 @@ MonoBehaviour:
     width: 1902
     height: 971
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Inspector
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+  m_Title: Project
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -208,8 +212,12 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
+<<<<<<< HEAD
   controlID: 107
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+  controlID: 42
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,8 +276,12 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
+<<<<<<< HEAD
   controlID: 42
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+  controlID: 43
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -328,8 +340,12 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
+<<<<<<< HEAD
   controlID: 43
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+  controlID: 44
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -356,6 +372,7 @@ MonoBehaviour:
 =======
     width: 357
     height: 517
+<<<<<<< HEAD
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -375,6 +392,8 @@ MonoBehaviour:
 =======
     width: 329
     height: 562
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -403,10 +422,14 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: GameView
 =======
   m_Name: SceneView
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+  m_Name: GameView
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -434,8 +457,12 @@ MonoBehaviour:
     height: 517
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
+<<<<<<< HEAD
   m_ActualView: {fileID: 12}
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+  m_ActualView: {fileID: 14}
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
   m_Panes:
   - {fileID: 14}
   - {fileID: 12}
@@ -454,9 +481,14 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 12}
   - {fileID: 15}
+<<<<<<< HEAD
   m_Selected: 0
   m_LastSelected: 1
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+  m_Selected: 1
+  m_LastSelected: 0
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1373,6 +1405,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 10
     speed: 2
     m_Value: 10
@@ -1400,6 +1433,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 20.66775
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+    m_Target: 227.79425
+    speed: 2
+    m_Value: 227.79425
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1490,6 +1528,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 949bffffe89fffff
@@ -1508,6 +1547,11 @@ MonoBehaviour:
       m_LastClickedID: -5526
       m_ExpandedIDs: 2cfbffff
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+      m_SelectedIDs: 3e170000
+      m_LastClickedID: 0
+      m_ExpandedIDs: f0e1ffff34e2ffff84e2ffff66e8ffff38e9ffff7ce9ffffcce9ffff3cedffff94eeffff88efffff4ef7fffff4f7ffff0cf9ffff2cfbffff947c00000c7d0000167d0000807d00008a7d0000ac7d0000c88100002485000046850000
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1607,7 +1651,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -2043,6 +2087,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: 5ad90000
     m_LastClickedID: 55642
     m_ExpandedIDs: 00000000fc2d00005ad900005cd900005ed9000060d9000062d9000064d9000066d9000068d900006ad900006cd900006ed9000000ca9a3b
@@ -2083,6 +2128,11 @@ MonoBehaviour:
     m_LastClickedID: 31526
     m_ExpandedIDs: 00000000f47a0000f67a0000287b000000ca9a3b
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+    m_SelectedIDs: 767b0000
+    m_LastClickedID: 31606
+    m_ExpandedIDs: 000000006a7b00006c7b0000747b000000ca9a3b
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2115,6 +2165,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000005ad900005cd900005ed9000060d9000062d9000064d9000066d9000068d900006ad900006cd900006ed90000
 =======
     m_ExpandedIDs: 000000006a7b00006c7b0000
@@ -2131,6 +2182,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000f47a0000f67a0000
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+    m_ExpandedIDs: 000000006a7b00006c7b0000
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2272,6 +2326,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: -404
     y: 433
     width: 403
@@ -2296,6 +2351,10 @@ MonoBehaviour:
 =======
     x: -30510
     y: -31970
+=======
+    x: 1499
+    y: 82
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
     width: 411
     height: 900
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)

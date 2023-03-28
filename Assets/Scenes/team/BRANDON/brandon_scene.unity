@@ -292,9 +292,15 @@ Transform:
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &369136383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3621399027185249656, guid: 373f1fe77ce857e4d9effa547f6b5e2a,
+=======
+--- !u!1 &369136383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: 95788e7260b93224e9cfd19cc653a6bc,
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
     type: 3}
   m_PrefabInstance: {fileID: 1265581034}
   m_PrefabAsset: {fileID: 0}
@@ -310,7 +316,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc76833681bbe84597ef1586b9443c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   animator: {fileID: 0}
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
   agent: {fileID: 369136387}
   player: {fileID: 116911182}
   whatIsGround:
@@ -350,8 +359,11 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+<<<<<<< HEAD
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!1 &465314708
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,6 +459,9 @@ Transform:
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!1 &536530953
 GameObject:
   m_ObjectHideFlags: 0
@@ -549,8 +564,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!1 &830450766
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,10 +833,14 @@ Transform:
   m_GameObject: {fileID: 936809390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: 146.23, y: 22.1, z: 208.71}
 =======
   m_LocalPosition: {x: 136.72958, y: 22.1, z: 220.52}
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+  m_LocalPosition: {x: 146.23, y: 22.1, z: 208.71}
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -826,6 +848,9 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!1 &1011915245
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,6 +1050,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 3621399027185249656, guid: 373f1fe77ce857e4d9effa547f6b5e2a,
         type: 3}
       propertyPath: m_Name
@@ -1105,10 +1131,65 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e7023e32ff4242c4c9bab20eb445d8b5, type: 2}
+=======
+    - target: {fileID: 100004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_Name
+      value: Bear
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 136.7296
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 22.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 220.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c679a1e19ccfed8439ac15b215232c1b, type: 2}
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+<<<<<<< HEAD
     - targetCorrespondingSourceObject: {fileID: 3621399027185249656, guid: 373f1fe77ce857e4d9effa547f6b5e2a,
         type: 3}
       insertIndex: -1
@@ -1120,6 +1201,17 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 373f1fe77ce857e4d9effa547f6b5e2a, type: 3}
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+    - targetCorrespondingSourceObject: {fileID: 100004, guid: 95788e7260b93224e9cfd19cc653a6bc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 369136387}
+    - targetCorrespondingSourceObject: {fileID: 100004, guid: 95788e7260b93224e9cfd19cc653a6bc,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 369136386}
+  m_SourcePrefab: {fileID: 100100000, guid: 95788e7260b93224e9cfd19cc653a6bc, type: 3}
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!1 &1274417896
 GameObject:
   m_ObjectHideFlags: 0

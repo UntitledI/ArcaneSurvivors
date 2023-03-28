@@ -39,10 +39,14 @@ RenderSettings:
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 =======
   m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -220,6 +224,9 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!1 &331972537
 GameObject:
   m_ObjectHideFlags: 0
@@ -931,8 +938,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174430387}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!1 &1424320733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1028,6 +1038,9 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)
 --- !u!1 &2104502387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1163,5 +1176,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2104502387}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+>>>>>>> fabcc574 (Added chickens to assets, and added  a bear with AI and temporary animations)

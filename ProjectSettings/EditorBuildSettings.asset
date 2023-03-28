@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/team/BRANDON/brandon_scene.unity
+    guid: 984031d3c9c928a4abf2deaff3d22526
+  - enabled: 1
+    path: Assets/Scenes/team/BRANDON/GameOverScreen.unity
+    guid: 5fafca784231f554abb2e267e230cd04
   m_configObjects: {}

@@ -24,6 +24,7 @@ PluginImporter:
         CPU: x86
         DefaultValueInitialized: true
         OS: Windows
+<<<<<<< HEAD
   - first:
       Standalone: Linux64
     second:
@@ -48,6 +49,8 @@ PluginImporter:
       enabled: 0
       settings:
         CPU: None
+=======
+>>>>>>> e806e5d4 (Wwise integration)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

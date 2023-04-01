@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Wwise/API/Runtime/Plugins/Mac/Debug/AkSoundEngine.bundle.dSYM/Contents/Info.plist.meta
 guid: 82fa939092a489140a7828aba048ccc3
 ========
 guid: 5fafca784231f554abb2e267e230cd04
 >>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy):Assets/Scenes/team/BRANDON/GameOverScreen.unity.meta
+=======
+guid: 82fa939092a489140a7828aba048ccc3
+>>>>>>> e806e5d4 (Wwise integration)
 DefaultImporter:
   externalObjects: {}
   userData: 

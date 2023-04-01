@@ -14,11 +14,20 @@ PluginImporter:
   - first:
       Any: 
     second:
+<<<<<<< HEAD
       enabled: 0
+=======
+<<<<<<< HEAD
+      enabled: 1
+=======
+      enabled: 0
+>>>>>>> 5bfe3785 (Wwise integration)
+>>>>>>> e806e5d4 (Wwise integration)
       settings: {}
   - first:
       Editor: Editor
     second:
+<<<<<<< HEAD
       enabled: 1
       settings:
         CPU: x86_64
@@ -48,6 +57,19 @@ PluginImporter:
       enabled: 0
       settings:
         CPU: AnyCPU
+=======
+<<<<<<< HEAD
+      enabled: 0
+      settings:
+        DefaultValueInitialized: true
+=======
+      enabled: 1
+      settings:
+        CPU: x86_64
+        DefaultValueInitialized: true
+        OS: Windows
+>>>>>>> 5bfe3785 (Wwise integration)
+>>>>>>> e806e5d4 (Wwise integration)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

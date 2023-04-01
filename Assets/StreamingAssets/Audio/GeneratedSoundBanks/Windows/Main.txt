@@ -1,0 +1,35 @@
+Event	ID	Name			Wwise Object Path	Notes
+	66508634	Play_AS_Music_Lvl_1_Map_1			\Default Work Unit\Play_AS_Music_Lvl_1_Map_1	
+	485989956	Play_AS_Music_Lvl_3_Map_1			\Default Work Unit\Play_AS_Music_Lvl_3_Map_1	
+	1972203457	Play_AS_Step_Hardwood_2			\Default Work Unit\Play_AS_Step_Hardwood_2	
+	1972203458	Play_AS_Step_Hardwood_1			\Default Work Unit\Play_AS_Step_Hardwood_1	
+	2743821481	Play_AS_Music_Lvl_2_Map_1			\Default Work Unit\Play_AS_Music_Lvl_2_Map_1	
+	2756004695	Play_AS_Music_Town_Jester			\Default Work Unit\Play_AS_Music_Town_Jester	
+	2872411372	Play_AS_Step_Concrete_2			\Default Work Unit\Play_AS_Step_Concrete_2	
+	2872411375	Play_AS_Step_Concrete_1			\Default Work Unit\Play_AS_Step_Concrete_1	
+	3468413433	Play_Ambience_Town			\Default Work Unit\Play_Ambience_Town	
+	3615401001	Play_AS_Music_Town			\Default Work Unit\Play_AS_Music_Town	
+	3669722927	Play_AS_Music_Finalboss_Map_1			\Default Work Unit\Play_AS_Music_Finalboss_Map_1	
+	3753721680	Play_AS_Music_Miniboss_Map_1			\Default Work Unit\Play_AS_Music_Miniboss_Map_1	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	7365553	Footsteps_Grass	Footsteps			
+	82718740	Footsteps_Concrete	Footsteps			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	136001446	AS_Step_Hardwood_2	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sydney_Step_Hardwood_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Footsteps_Grass\AS_Step_Hardwood_2		51656
+	138537506	AS_Step_Hardwood_1	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sydney_Step_Hardwood_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Footsteps_Grass\AS_Step_Hardwood_1		61448
+	333067347	Tunic RESCORE	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Tunic RESCORE_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\AS_Music_Town_Jester\Tunic RESCORE		6769448
+	341864467	Sydney_Music_Loop_1	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sydney_Music_Loop_1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Combat Music Playlist\AS_Music_Lvl_1_Map_1\Sydney_Music_Loop_1		5927136
+	465330163	Endless Runner	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Endless Runner_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Town Music Playlist\AS_Music_Town\Endless Runner		6350496
+	537670839	Sydney_Music_Loop_2	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sydney_Music_Loop_2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Combat Music Playlist\AS_Music_Lvl_2_Map_1\Sydney_Music_Loop_2		8467296
+	567096839	AS_Step_Concrete_2	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sydney_Step_Concrete_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Footsteps_Concrete\AS_Step_Concrete_2		59952
+	697316277	Synth Practice	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Synth Practice_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Combat Music Playlist\AS_Music_Finalboss_Map_1\Synth Practice		14514276
+	852426711	Sydney_Music_Loop_3	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sydney_Music_Loop_3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Combat Music Playlist\AS_Music_Lvl_3_Map_1\Sydney_Music_Loop_3		6773856
+	852883402	Sea Shanty 2	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sea Shanty 2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Combat Music Playlist\AS_Music_Miniboss_Map_1\Sea Shanty 2		20865696
+	897444587	Ambience_Town	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sydney_Ambience_Loop_1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Ambience\Ambience_Town		22411768
+	932405412	AS_Step_Concrete_1	C:\Users\Sydney Roberts\Documents\WwiseProjects\Team 7 Arcane Survivors\.cache\Windows\SFX\Sydney_Step_Concrete_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Player\Footsteps\Footsteps_Concrete\AS_Step_Concrete_1		70288
+

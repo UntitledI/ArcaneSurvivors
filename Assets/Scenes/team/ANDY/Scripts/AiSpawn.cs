@@ -6,8 +6,8 @@ public class AiSpawn : MonoBehaviour
 {
     [SerializeField] private GameObject monsterPrefab;
     [SerializeField] private float spawnDistance = 50f;
-    [SerializeField] private int totalBoars = 100;
-    [SerializeField] private int boarsPerWave = 5;
+    [SerializeField] private int totalMonsters = 100;
+    [SerializeField] private int monstersPerWave = 5;
     [SerializeField] private float timeBetweenWaves = 2f;
 
     private Transform playerTransform;
@@ -20,10 +20,10 @@ public class AiSpawn : MonoBehaviour
 
     private IEnumerator SpawnWaves()
     {
-        int waves = totalBoars / boarsPerWave;
+        int waves = totalMonsters / monstersPerWave;
         for (int i = 0; i < waves; i++)
         {
-            for (int j = 0; j < boarsPerWave; j++)
+            for (int j = 0; j < monstersPerWave; j++)
             {
                 Vector3 randomDirection = Random.onUnitSphere;
                 randomDirection.y = 0f;

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: cf00fb61563bf8e4aa6306f6d5a5e35d
+<<<<<<< HEAD:Assets/Blink/Art/Weapons/Stylized/Demo/Stylized_Swords_DEMO.unity.meta
+guid: c36e73121c32be0479e3d4c285eac2b3
+=======
+guid: 511349ec5272ece458b0ade6c4725996
+>>>>>>> 456f0462 (base scene for character):Assets/Blink/Art/Characters/Stylized/Demo_Characters/DEMO_FreeStylizedHumanMale.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

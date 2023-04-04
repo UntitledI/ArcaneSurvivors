@@ -6,10 +6,15 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
     public Animator animator;
 
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+    public Animator animator;
+
+>>>>>>> d2c34afb (Added a chicken model to be used, temporary model for enemies as a bear, transition between patrolling animation and attacking animation working, projectiles can be added back in later if ranged enemies are needed)
     public NavMeshAgent agent;
 
     public Transform player;
@@ -36,9 +41,13 @@ public class EnemyAI : MonoBehaviour
 
     private void Awake(){
 <<<<<<< HEAD
+<<<<<<< HEAD
         animator = GetComponent<Animator>();
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+        animator = GetComponent<Animator>();
+>>>>>>> d2c34afb (Added a chicken model to be used, temporary model for enemies as a bear, transition between patrolling animation and attacking animation working, projectiles can be added back in later if ranged enemies are needed)
         player = GameObject.Find("PlayerObj").transform;
         agent = GetComponent<NavMeshAgent>();
     }
@@ -83,9 +92,13 @@ public class EnemyAI : MonoBehaviour
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 <<<<<<< HEAD
+<<<<<<< HEAD
         animator.SetBool("IsAttacking", false);
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+        animator.SetBool("IsAttacking", false);
+>>>>>>> d2c34afb (Added a chicken model to be used, temporary model for enemies as a bear, transition between patrolling animation and attacking animation working, projectiles can be added back in later if ranged enemies are needed)
 
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
@@ -96,9 +109,13 @@ public class EnemyAI : MonoBehaviour
 
     private void ChasePlayer(){
 <<<<<<< HEAD
+<<<<<<< HEAD
         animator.SetBool("IsAttacking", false);
 =======
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+        animator.SetBool("IsAttacking", false);
+>>>>>>> d2c34afb (Added a chicken model to be used, temporary model for enemies as a bear, transition between patrolling animation and attacking animation working, projectiles can be added back in later if ranged enemies are needed)
         agent.SetDestination(player.position);
     }
 
@@ -110,6 +127,7 @@ public class EnemyAI : MonoBehaviour
 
         if(!alreadyAttacked){
             //attack code here
+<<<<<<< HEAD
 <<<<<<< HEAD
             // Rigidbody rb = Instantiate(projectile,transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
@@ -124,6 +142,14 @@ public class EnemyAI : MonoBehaviour
             //
             alreadyAttacked = true;
 >>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+=======
+            // Rigidbody rb = Instantiate(projectile,transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+            // rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            //
+            alreadyAttacked = true;
+            animator.SetBool("IsAttacking", true);
+>>>>>>> d2c34afb (Added a chicken model to be used, temporary model for enemies as a bear, transition between patrolling animation and attacking animation working, projectiles can be added back in later if ranged enemies are needed)
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
     }

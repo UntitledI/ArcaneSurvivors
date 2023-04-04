@@ -5,6 +5,8 @@ using UnityEngine.AI;
 
 public class EnemyAI : MonoBehaviour
 {
+    public Animator animator;
+
     public NavMeshAgent agent;
 
     public Transform player;
@@ -30,6 +32,7 @@ public class EnemyAI : MonoBehaviour
     public bool playerInSightRange, playerInAttackRange;
 
     private void Awake(){
+        animator = GetComponent<Animator>();
         player = GameObject.Find("PlayerObj").transform;
         agent = GetComponent<NavMeshAgent>();
     }
@@ -73,6 +76,7 @@ public class EnemyAI : MonoBehaviour
         //calculate random point in range
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
+        animator.SetBool("IsAttacking", false);
 
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
 
@@ -82,6 +86,7 @@ public class EnemyAI : MonoBehaviour
     }
 
     private void ChasePlayer(){
+        animator.SetBool("IsAttacking", false);
         agent.SetDestination(player.position);
     }
 
@@ -93,11 +98,12 @@ public class EnemyAI : MonoBehaviour
 
         if(!alreadyAttacked){
             //attack code here
-            Rigidbody rb = Instantiate(projectile,transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            // Rigidbody rb = Instantiate(projectile,transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+            // rb.AddForce(transform.up * 8f, ForceMode.Impulse);
             //
             alreadyAttacked = true;
+            animator.SetBool("IsAttacking", true);
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
     }

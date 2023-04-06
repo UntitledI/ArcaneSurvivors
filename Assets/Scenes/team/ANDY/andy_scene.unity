@@ -1434,8 +1434,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   monsterPrefab: {fileID: 149914, guid: 77a3bf8f2a6acb240b4b5b525d981227, type: 3}
   spawnDistance: 500
+<<<<<<< HEAD
   totalMonsters: 2000
   monstersPerWave: 50
+=======
+  totalMonsters: 100
+  monstersPerWave: 5
+>>>>>>> 2ebe1d67 (ability changes)
   timeBetweenWaves: 2
 --- !u!114 &1723122714
 MonoBehaviour:

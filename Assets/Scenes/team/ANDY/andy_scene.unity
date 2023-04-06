@@ -239,7 +239,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304388260}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcef3564e44c3cd43abe41f7a0fcc4c0, type: 3}
   m_Name: 
@@ -400,8 +400,8 @@ MonoBehaviour:
   monsterPrefab: {fileID: 1833125029741782, guid: f94c19e87f2c110468b61674ffd64dea,
     type: 3}
   spawnDistance: 500
-  totalBoars: 100
-  boarsPerWave: 5
+  totalMonsters: 100
+  monstersPerWave: 5
   timeBetweenWaves: 2
 --- !u!1 &1992121322
 GameObject:

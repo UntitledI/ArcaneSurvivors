@@ -16,6 +16,7 @@ EditorUserSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 505202555c03590e595d557a49265e4447151979287b20327d7d1965e6e3326b
 =======
       value: 065457525d505902585e0f2440755d44474e4173757e77317a7c1f35b1e3353e
@@ -52,6 +53,9 @@ EditorUserSettings:
       value: 5752565554065a0c55085c77447b5e444116482c782a23332c781b32e0b7356c
 =======
       value: 0552055257505b58595e582613755e44144e1b797b2d70317a7a1932e4e5636e
+=======
+      value: 5552055e07030b020c0f5e2312700e444016197e2f7e20352e2a4d37e4e5633c
+>>>>>>> 4b56d24a (NAME TAG!!!)
 =======
       value: 5552055e07030b020c0f5e2312700e444016197e2f7e20352e2a4d37e4e5633c
 >>>>>>> 4b56d24a (NAME TAG!!!)
@@ -155,6 +159,7 @@ EditorUserSettings:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_DesiredImportWorkerCount: 5
 =======
   m_DesiredImportWorkerCount: 6
@@ -171,6 +176,9 @@ EditorUserSettings:
 =======
   m_DesiredImportWorkerCount: 3
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+  m_DesiredImportWorkerCount: 3
+>>>>>>> 4b56d24a (NAME TAG!!!)
   m_StandbyImportWorkerCount: 2
   m_IdleImportWorkerShutdownDelay: 60000
   m_VCShowFailedCheckout: 1

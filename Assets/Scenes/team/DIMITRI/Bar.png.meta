@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Scenes/team/DIMITRI/Bar.png.meta
 guid: ca39f337d50b1cd4fb6cb8b87dfcc806
+========
+guid: 86cd47992ecfd5b41a830a86df1339bb
+>>>>>>>> 78d117e0 (Name tag re-added):Assets/Scenes/team/DIMITRI/IMG_0364.JPG.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

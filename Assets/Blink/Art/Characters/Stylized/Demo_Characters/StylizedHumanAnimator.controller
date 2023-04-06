@@ -67,10 +67,14 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Controller: {fileID: 9100000}
 =======
     m_Controller: {fileID: 0}
 >>>>>>> b6e6f083 (Player Movement repush)
+=======
+    m_Controller: {fileID: 0}
+>>>>>>> eff5772a (Player Movement repush)
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -127,10 +131,14 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -3347434484351239813}
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Position: {x: 460, y: 350, z: 0}
 =======
     m_Position: {x: 320, y: 380, z: 0}
 >>>>>>> b6e6f083 (Player Movement repush)
+=======
+    m_Position: {x: 320, y: 380, z: 0}
+>>>>>>> eff5772a (Player Movement repush)
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

@@ -82,6 +82,9 @@ public class ThirdPersonMovement : MonoBehaviour
     public float turnSmoothVelocity;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> eff5772a (Player Movement repush)
     public Animator animator;
 
     void Start()
@@ -89,8 +92,11 @@ public class ThirdPersonMovement : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+<<<<<<< HEAD
 =======
 >>>>>>> a0fce318 (readded Character)
+=======
+>>>>>>> eff5772a (Player Movement repush)
     // Update is called once per frame
     void Update()
     {
@@ -98,6 +104,7 @@ public class ThirdPersonMovement : MonoBehaviour
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+<<<<<<< HEAD
 <<<<<<< HEAD
         //Moves the character in the direction of the camera
 <<<<<<< HEAD
@@ -111,6 +118,10 @@ public class ThirdPersonMovement : MonoBehaviour
         //Moves the character in the direction of the camera
         if(direction.magnitude >= 0.1f)
 >>>>>>> a0fce318 (readded Character)
+=======
+        //Moves the character in the direction of the camera
+        if (direction.magnitude >= 0.1f)
+>>>>>>> eff5772a (Player Movement repush)
         {
             //calculates the target angle the character is facing with the camera
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cam.eulerAngles.y;
@@ -160,7 +171,6 @@ public class ThirdPersonMovement : MonoBehaviour
 >>>>>>> 4a281c55 (readded Character)
 =======
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
-
         }
     }
 >>>>>>> a0fce318 (readded Character)

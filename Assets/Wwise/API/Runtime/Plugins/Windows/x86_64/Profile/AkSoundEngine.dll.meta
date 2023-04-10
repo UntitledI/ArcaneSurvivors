@@ -15,6 +15,7 @@ PluginImporter:
       Any: 
     second:
 <<<<<<< HEAD
+<<<<<<< HEAD
       enabled: 0
 =======
 <<<<<<< HEAD
@@ -23,10 +24,14 @@ PluginImporter:
       enabled: 0
 >>>>>>> 5bfe3785 (Wwise integration)
 >>>>>>> e806e5d4 (Wwise integration)
+=======
+      enabled: 0
+>>>>>>> 2dd69085 (Animated Player)
       settings: {}
   - first:
       Editor: Editor
     second:
+<<<<<<< HEAD
 <<<<<<< HEAD
       enabled: 1
       settings:
@@ -63,13 +68,18 @@ PluginImporter:
       settings:
         DefaultValueInitialized: true
 =======
+=======
+>>>>>>> 2dd69085 (Animated Player)
       enabled: 1
       settings:
         CPU: x86_64
         DefaultValueInitialized: true
         OS: Windows
+<<<<<<< HEAD
 >>>>>>> 5bfe3785 (Wwise integration)
 >>>>>>> e806e5d4 (Wwise integration)
+=======
+>>>>>>> 2dd69085 (Animated Player)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

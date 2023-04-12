@@ -13,6 +13,7 @@ TagManager:
   - inventory
   - vehicle
   - SurfaceToClimb
+  - Animal
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - turrets
   - player
   - radar
-  - 
+  - Ground
   - 
   - 
   - Scanner

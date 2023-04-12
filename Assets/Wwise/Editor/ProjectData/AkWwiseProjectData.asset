@@ -408,6 +408,7 @@ MonoBehaviour:
     List: []
   ExpandedFileSystemItemIds: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
 <<<<<<< HEAD
@@ -416,6 +417,9 @@ MonoBehaviour:
 >>>>>>> 17224e31 (fixing divergent branch)
 =======
   ExpandedWaapiItemIds: 0300000006000000070000001400000016000000170000001a0000001d0000001f000000
+=======
+  ExpandedWaapiItemIds: 
+>>>>>>> cc3d29ac (fixing Scene Hierarchy)
   AutoSyncSelection: 0
 >>>>>>> e806e5d4 (Wwise integration)
   autoPopulateEnabled: 1

@@ -19,6 +19,7 @@ public class ThirdPersonMovement : MonoBehaviour
     bool sprinting;
     float trueSpeed;
     public float sensitivity = 150f;
+<<<<<<< HEAD
     //Jumping
     public float jumpHeight;
     public float gravity;
@@ -97,6 +98,8 @@ public class ThirdPersonMovement : MonoBehaviour
     bool sprinting;
     float trueSpeed;
 
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     //Jumping
     public float jumpHeight;
     public float gravity;
@@ -148,6 +151,7 @@ public class ThirdPersonMovement : MonoBehaviour
         //retrieves cursor coordinate input
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
+        
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -227,7 +231,7 @@ public class ThirdPersonMovement : MonoBehaviour
             animator.SetFloat("Speed", 0);
         }
         //Jumping
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if(Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             velocity.y = Mathf.Sqrt((jumpHeight * 10) * -2f * gravity);
         }

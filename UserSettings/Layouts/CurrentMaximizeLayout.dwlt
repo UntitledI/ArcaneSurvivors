@@ -15,21 +15,29 @@ MonoBehaviour:
   m_Children:
   - {fileID: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 14}
 =======
   - {fileID: 13}
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+  - {fileID: 14}
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     width: 2560
     height: 1307
   m_MinSize: {x: 300, y: 150}
   m_MaxSize: {x: 24288, y: 24288}
   vertical: 0
   controlID: -1
+<<<<<<< HEAD
 =======
     width: 1920
     height: 987
@@ -50,6 +58,8 @@ MonoBehaviour:
 =======
   controlID: 9896
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -75,10 +85,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     x: 3071
     y: 73
     width: 1542
     height: 708
+<<<<<<< HEAD
 =======
     x: 329
     y: 73
@@ -97,6 +111,8 @@ MonoBehaviour:
     width: 1088
     height: 541
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -113,6 +129,9 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_TargetSize: {x: 1542, y: 687}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
@@ -120,6 +139,7 @@ MonoBehaviour:
   m_EnterPlayModeBehavior: 0
   m_fullscreenMonitorIdx: 0
   m_playModeBehaviorIdx: 0
+<<<<<<< HEAD
 =======
   m_TargetSize: {x: 1920, y: 1080}
   m_TextureFilterMode: 0
@@ -129,6 +149,8 @@ MonoBehaviour:
   m_fullscreenMonitorIdx: 0
   m_playModeBehaviorIdx: 1
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_UseMipMap: 0
   m_isFullscreen: 0
   m_suppressRenderingForFullscreen: 0
@@ -137,26 +159,36 @@ MonoBehaviour:
   m_Gizmos: 0
   m_Stats: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
 =======
   m_SelectedSizes: 03000000000000000000000000000000000000000000000000000000000000000000000000000000
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_HBaseRangeMin: -771
     m_HBaseRangeMax: 771
     m_VBaseRangeMin: -343.5
     m_VBaseRangeMax: 343.5
+<<<<<<< HEAD
 =======
     m_HBaseRangeMin: -960
     m_HBaseRangeMax: 960
     m_VBaseRangeMin: -540
     m_VBaseRangeMax: 540
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -165,6 +197,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -182,6 +215,9 @@ MonoBehaviour:
 =======
     m_EnableMouseInput: 0
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+    m_EnableMouseInput: 0
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -191,16 +227,22 @@ MonoBehaviour:
       x: 0
       y: 21
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       width: 1542
       height: 687
     m_Scale: {x: 1.2298738, y: 1.2298738}
     m_Translation: {x: 763.85754, y: 322.47906}
+<<<<<<< HEAD
 =======
       width: 1088
       height: 520
     m_Scale: {x: 0.48148152, y: 0.4814815}
     m_Translation: {x: 544, y: 260}
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -208,6 +250,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       x: -621.0861
       y: -262.20502
       width: 1253.7872
@@ -215,6 +260,7 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1542, y: 708}
+<<<<<<< HEAD
 =======
       x: -1129.8461
       y: -540
@@ -224,6 +270,8 @@ MonoBehaviour:
   m_defaultScale: 0.4814815
   m_LastWindowPixelSize: {x: 1088, y: 541}
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -246,22 +294,31 @@ MonoBehaviour:
   m_Children:
   - {fileID: 4}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 9}
   - {fileID: 11}
 =======
   - {fileID: 10}
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+  - {fileID: 9}
+  - {fileID: 11}
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     width: 2055
     height: 1307
   m_MinSize: {x: 200, y: 150}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
   controlID: -1
+<<<<<<< HEAD
 =======
     width: 1419
     height: 987
@@ -282,6 +339,8 @@ MonoBehaviour:
 =======
   controlID: 9831
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -302,12 +361,16 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     width: 2055
     height: 729
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: -1
+<<<<<<< HEAD
 =======
     width: 1419
     height: 562
@@ -328,6 +391,8 @@ MonoBehaviour:
 =======
   controlID: 9798
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,6 +411,7 @@ MonoBehaviour:
     x: 0
     y: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     width: 511
     height: 729
 =======
@@ -359,6 +425,12 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+    width: 511
+    height: 729
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -386,16 +458,22 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     x: 2560
     y: 73
     width: 510
     height: 708
+<<<<<<< HEAD
 =======
     x: 0
     y: 73
     width: 328
     height: 541
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -408,6 +486,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
       m_SelectedIDs: 36d7faff
       m_LastClickedID: -338122
@@ -429,6 +508,11 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 5cbcffffd4beffff00f4ffff10fbffffca8a0000e68a00008ab10000a4b10000c0b10000
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+      m_SelectedIDs: 36d7faff
+      m_LastClickedID: -338122
+      m_ExpandedIDs: b02efaffb42efaffb82efaffbc2efaffc82efaff2c2ffaff302ffaff342ffaff602ffaff6c2ffaff64d5faff68d5faffbcd5faffd2d5faffe0d5faff36d7fafff2e3faff3ce4faff42ebfaff82ebfaff50ebfbff8c05feff8e0cfeff920cfefffc21feff0022feff3c22feff7822feffca23feffd023feff1824feff106cfeffe26efeff3a78feff2a81feffe087feff6c70ffff6e70ffff0a73ffff00fbffff06fbffff10fbffff5ef20e00
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -468,16 +552,22 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     x: 511
     y: 0
     width: 1544
     height: 729
+<<<<<<< HEAD
 =======
     x: 329
     y: 0
     width: 1090
     height: 562
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 2}
@@ -485,9 +575,12 @@ MonoBehaviour:
   - {fileID: 8}
   - {fileID: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - {fileID: 9}
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &8
@@ -512,16 +605,22 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     x: 3071
     y: 73
     width: 1542
     height: 708
+<<<<<<< HEAD
 =======
     x: 329
     y: 73
     width: 1088
     height: 541
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -615,6 +714,7 @@ MonoBehaviour:
       collapsed: 0
       displayed: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       snapOffset: {x: -121.5, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 1
@@ -623,6 +723,11 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+      snapOffset: {x: -121.5, y: 86}
+      snapOffsetDelta: {x: 0, y: 0}
+      snapCorner: 1
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       id: Orientation
       index: 0
       layout: 4
@@ -798,6 +903,9 @@ MonoBehaviour:
       size: {x: 0, y: 0}
       sizeOverriden: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     - dockPosition: 0
       containerId: Floating
       floating: 1
@@ -808,6 +916,7 @@ MonoBehaviour:
       snapCorner: 3
       id: AINavigationOverlay
       index: 0
+<<<<<<< HEAD
 =======
     - dockPosition: 1
       containerId: overlay-container--right
@@ -820,6 +929,8 @@ MonoBehaviour:
       id: AINavigationOverlay
       index: 8
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -832,7 +943,11 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/TrailRenderer
+<<<<<<< HEAD
       index: 9
+=======
+      index: 8
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -858,7 +973,11 @@ MonoBehaviour:
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Cinemachine Tool Settings
+<<<<<<< HEAD
       index: 10
+=======
+      index: 9
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       layout: 4
       size: {x: 0, y: 0}
       sizeOverriden: 0
@@ -872,6 +991,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -893,6 +1013,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 1071.4839, y: 548.4063, z: -5.5078125}
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+    m_Target: {x: 127.53059, y: -8.78015, z: 547.8818}
+    speed: 2
+    m_Value: {x: 127.53059, y: -8.78015, z: 547.8818}
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -921,6 +1046,7 @@ MonoBehaviour:
     yGrid:
       m_Fade:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         m_Target: 0
         speed: 2
@@ -931,6 +1057,8 @@ MonoBehaviour:
     zGrid:
       m_Fade:
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
         m_Target: 1
         speed: 2
         m_Value: 1
@@ -938,6 +1066,9 @@ MonoBehaviour:
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     zGrid:
       m_Fade:
         m_Target: 0
@@ -946,13 +1077,19 @@ MonoBehaviour:
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0, y: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_ShowGrid: 1
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_Target: {x: -0.06317447, y: 0.655532, z: 0.055217266, w: 0.7505551}
     speed: 2
     m_Value: {x: -0.06317147, y: 0.6555008, z: 0.05521464, w: 0.7505194}
@@ -964,6 +1101,7 @@ MonoBehaviour:
     m_Target: 0
     speed: 2
     m_Value: 0
+<<<<<<< HEAD
 =======
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
@@ -977,6 +1115,8 @@ MonoBehaviour:
     speed: 2
     m_Value: 1
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_CameraSettings:
     m_Speed: 2
     m_SpeedNormalized: 1
@@ -1007,6 +1147,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: AnimatorControllerTool
   m_EditorClassIdentifier: 
@@ -1033,8 +1176,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
 =======
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_Script: {fileID: 12914, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -1049,10 +1195,14 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     x: 2560
     y: 802
     width: 2054
     height: 477
+<<<<<<< HEAD
 =======
     x: 360
     y: 73
@@ -1065,6 +1215,8 @@ MonoBehaviour:
     width: 1088
     height: 541
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1077,6 +1229,9 @@ MonoBehaviour:
   m_ViewTransforms:
     m_KeySerializationHelper:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     - {fileID: -465300323551324249, guid: 3671227ebfcb2ed4c82db1ef616e80d3, type: 2}
     m_ValueSerializationHelper:
     - e00: 0.48755768
@@ -1087,6 +1242,7 @@ MonoBehaviour:
       e11: 0.48755768
       e12: 0
       e13: 118.29611
+<<<<<<< HEAD
 =======
     - {fileID: -5602963042399094863, guid: 40db3173a05ae3242b1c182a09b0a183, type: 2}
     m_ValueSerializationHelper:
@@ -1099,6 +1255,8 @@ MonoBehaviour:
       e12: 0
       e13: 0
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       e20: 0
       e21: 0
       e22: 1
@@ -1109,16 +1267,22 @@ MonoBehaviour:
       e33: 1
   m_PreviewAnimator: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_AnimatorController: {fileID: 9100000, guid: 3671227ebfcb2ed4c82db1ef616e80d3,
     type: 2}
   m_BreadCrumbs:
   - m_Target: {fileID: -465300323551324249, guid: 3671227ebfcb2ed4c82db1ef616e80d3,
+<<<<<<< HEAD
 =======
   m_AnimatorController: {fileID: 9100000, guid: 40db3173a05ae3242b1c182a09b0a183,
     type: 2}
   m_BreadCrumbs:
   - m_Target: {fileID: -5602963042399094863, guid: 40db3173a05ae3242b1c182a09b0a183,
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -1133,10 +1297,14 @@ MonoBehaviour:
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &11
 =======
 --- !u!114 &10
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+--- !u!114 &11
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1153,6 +1321,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     y: 1227
     width: 2055
     height: 80
@@ -1165,6 +1336,7 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+<<<<<<< HEAD
 =======
     y: 562
     width: 1419
@@ -1179,6 +1351,8 @@ MonoBehaviour:
   m_LastSelected: 1
 --- !u!114 &11
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1200,16 +1374,22 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     x: 2560
     y: 1300
     width: 2054
     height: 59
+<<<<<<< HEAD
 =======
     x: 0
     y: 635
     width: 1418
     height: 404
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1233,10 +1413,14 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets
 =======
     - Assets/Scenes/team/DIMITRI
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+    - Assets
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1244,6 +1428,9 @@ MonoBehaviour:
   m_StartGridSize: 64
   m_LastFolders:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jonathan\Documents\GitHub\csc631-arcane-survivors
@@ -1254,6 +1441,7 @@ MonoBehaviour:
     m_SelectedIDs: 70820000
     m_LastClickedID: 33392
     m_ExpandedIDs: 000000007082000072820000788200007a8200007c8200007e82000080820000828200008682000088820000148300004a83000056830000688400006a84000000bb00003abe0000b2be000000ca9a3bffffff7f
+<<<<<<< HEAD
 =======
   - Assets/Scenes/team/DIMITRI
   m_LastFoldersGridSize: -1
@@ -1280,6 +1468,8 @@ MonoBehaviour:
     m_LastClickedID: 35788
     m_ExpandedIDs: 000000009a8b00009c8b00009e8b0000a08b0000a28b0000a48b000000ca9a3bffffff7f
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1296,10 +1486,14 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 11}
 =======
       m_ClientGUIView: {fileID: 10}
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+      m_ClientGUIView: {fileID: 11}
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1314,6 +1508,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000007082000072820000788200007a8200007c8200007e82000080820000828200008682000088820000148300004a83000056830000688400006a84000000bb00003abe0000b2be000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 00000000f87e0000fa7e0000fc7e0000fe7e0000007f0000027f000000ca9a3bffffff7f
@@ -1324,6 +1519,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 000000009a8b00009c8b00009e8b0000a08b0000a28b0000a48b000000ca9a3bffffff7f
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+    m_ExpandedIDs: 000000007082000072820000788200007a8200007c8200007e82000080820000828200008682000088820000148300004a83000056830000688400006a84000000bb00003abe0000b2be000000ca9a3bffffff7f
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1352,10 +1550,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_SelectedInstanceIDs: 36d7faff
     m_LastClickedInstanceID: -338122
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300001a6200002e8500003685000062880000c0880000ee850000e0850000c0850000da8a000042910000729d0000be7a1100067c1100
+<<<<<<< HEAD
 =======
     m_SelectedInstanceIDs: 72f8ffff
     m_LastClickedInstanceID: -1934
@@ -1376,6 +1578,8 @@ MonoBehaviour:
 >>>>>>> e2a2ec1b (Health Bar slider)
     m_ExpandedInstanceIDs: c62300001a6200002e8500003685000062880000c0880000ee850000e0850000c0850000da8a0000
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1392,10 +1596,14 @@ MonoBehaviour:
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 11}
 =======
       m_ClientGUIView: {fileID: 10}
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+      m_ClientGUIView: {fileID: 11}
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1408,10 +1616,14 @@ MonoBehaviour:
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 320
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &13
 =======
 --- !u!114 &12
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+--- !u!114 &13
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1434,6 +1646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 828
     width: 2004
     height: 571
@@ -1442,6 +1655,11 @@ MonoBehaviour:
     width: 2004
     height: 553
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+    y: 828
+    width: 2004
+    height: 571
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1452,10 +1670,14 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!114 &14
 =======
 --- !u!114 &13
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+--- !u!114 &14
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1471,6 +1693,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     x: 2055
     y: 0
     width: 505
@@ -1483,6 +1708,7 @@ MonoBehaviour:
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &15
+<<<<<<< HEAD
 =======
     x: 1419
     y: 0
@@ -1497,6 +1723,8 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &14
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1518,16 +1746,22 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
     x: 4615
     y: 73
     width: 504
     height: 1286
+<<<<<<< HEAD
 =======
     x: 1419
     y: 73
     width: 500
     height: 966
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1547,6 +1781,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: -1
 =======
   m_LastInspectedObjectInstanceID: -1934
@@ -1560,6 +1795,9 @@ MonoBehaviour:
 =======
   m_LastInspectedObjectInstanceID: -17316
 >>>>>>> e2a2ec1b (Health Bar slider)
+=======
+  m_LastInspectedObjectInstanceID: -1
+>>>>>>> 58e9032b (Polished Player Movement/Camera)
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

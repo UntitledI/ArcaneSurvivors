@@ -221,6 +221,7 @@ public class ThirdPersonMovement : MonoBehaviour
         controller.Move(velocity * Time.deltaTime);
     }
 
+<<<<<<< HEAD
 =======
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
 =======
@@ -248,4 +249,6 @@ public class ThirdPersonMovement : MonoBehaviour
         }
     }
 >>>>>>> a0fce318 (readded Character)
+=======
+>>>>>>> e6956f94 (fixed Animator issue)
 }

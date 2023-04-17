@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 194124815086668079}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 457091863}
   - component: {fileID: 457091864}
   m_Layer: 12
@@ -22,6 +23,11 @@ GameObject:
 =======
   m_Layer: 0
 >>>>>>> a0fce318 (readded Character)
+=======
+  - component: {fileID: 457091863}
+  - component: {fileID: 457091864}
+  m_Layer: 12
+>>>>>>> e6956f94 (fixed Animator issue)
   m_Name: ThirdPersonPlayer
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -37,6 +43,7 @@ Transform:
   m_GameObject: {fileID: 194124815086668073}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 =======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -44,10 +51,14 @@ Transform:
 =======
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
 >>>>>>> a0fce318 (readded Character)
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_LocalPosition: {x: 130.548, y: 1.016, z: 131.629}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - {fileID: 3833540236602684244}
@@ -63,6 +74,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
 >>>>>>> a0fce318 (readded Character)
+=======
+  - {fileID: 3833540236602684244}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+>>>>>>> e6956f94 (fixed Animator issue)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &194124815086668076
 MonoBehaviour:
@@ -78,6 +94,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 194124815086668079}
   cam: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   turnSmoothTime: 0.1
@@ -97,6 +114,15 @@ MonoBehaviour:
   turnSmoothTime: 0.1
   turnSmoothVelocity: 0
 >>>>>>> a0fce318 (readded Character)
+=======
+  turnSmoothTime: 0.1
+  turnSmoothVelocity: 0
+  walkSpeed: 5
+  sprintSpeed: 20
+  sensitivity: 200
+  jumpHeight: 2
+  gravity: -4
+>>>>>>> e6956f94 (fixed Animator issue)
 --- !u!143 &194124815086668079
 CharacterController:
   m_ObjectHideFlags: 0
@@ -116,6 +142,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_Height: 1.8
@@ -164,16 +191,58 @@ Animator:
 >>>>>>> a0fce318 (readded Character)
   m_Height: 3.7
   m_Radius: 0.4
+=======
+  m_Height: 1.8
+  m_Radius: 0.3
+>>>>>>> e6956f94 (fixed Animator issue)
   m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_StepOffset: 0.5
+  m_SkinWidth: 0.04
   m_MinMoveDistance: 0.001
+<<<<<<< HEAD
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &194124816486319745
 <<<<<<< HEAD
 >>>>>>> 4a281c55 (readded Character)
 =======
 >>>>>>> a0fce318 (readded Character)
+=======
+  m_Center: {x: 0, y: 0.91, z: 0}
+--- !u!114 &457091863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194124815086668073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92183204cf484514e942d4126adab6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownTime: 0.8
+--- !u!95 &457091864
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194124815086668073}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: b62a14186f8ba634e9f49d818f12fc7c, type: 3}
+  m_Controller: {fileID: 9100000, guid: 3671227ebfcb2ed4c82db1ef616e80d3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!1001 &194124815133343954
+>>>>>>> e6956f94 (fixed Animator issue)
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -181,6 +250,7 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 194124815086668078}
     m_Modifications:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
@@ -197,12 +267,18 @@ PrefabInstance:
 >>>>>>> 4a281c55 (readded Character)
 =======
 >>>>>>> a0fce318 (readded Character)
+=======
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_RootOrder
       value: -1
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e6956f94 (fixed Animator issue)
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -219,18 +295,22 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+<<<<<<< HEAD
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
 >>>>>>> 4a281c55 (readded Character)
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
 >>>>>>> a0fce318 (readded Character)
+=======
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
@@ -238,12 +318,16 @@ PrefabInstance:
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
 >>>>>>> a0fce318 (readded Character)
+=======
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
@@ -251,12 +335,16 @@ PrefabInstance:
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
 >>>>>>> a0fce318 (readded Character)
+=======
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
@@ -264,12 +352,16 @@ PrefabInstance:
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
 >>>>>>> a0fce318 (readded Character)
+=======
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -290,31 +382,39 @@ PrefabInstance:
 =======
 >>>>>>> a0fce318 (readded Character)
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
+=======
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
 <<<<<<< HEAD
 >>>>>>> 4a281c55 (readded Character)
 =======
 >>>>>>> a0fce318 (readded Character)
+=======
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
@@ -322,12 +422,16 @@ PrefabInstance:
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
 >>>>>>> a0fce318 (readded Character)
+=======
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
@@ -335,12 +439,18 @@ PrefabInstance:
 =======
     - target: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
 >>>>>>> a0fce318 (readded Character)
+=======
+    - target: {fileID: 3999992470069982086, guid: b7b74cef80634754c8296c83d65f4f37,
+>>>>>>> e6956f94 (fixed Animator issue)
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e6956f94 (fixed Animator issue)
     - target: {fileID: 4380035797415520572, guid: b7b74cef80634754c8296c83d65f4f37,
         type: 3}
       propertyPath: m_Name
@@ -441,14 +551,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 148.441
       objectReference: {fileID: 0}
+<<<<<<< HEAD
 =======
 >>>>>>> 4a281c55 (readded Character)
 =======
 >>>>>>> a0fce318 (readded Character)
+=======
+>>>>>>> e6956f94 (fixed Animator issue)
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: 8fdc211ab43ca5840a5043adccecaba2, type: 3}
@@ -462,12 +576,20 @@ Transform:
 >>>>>>> a0fce318 (readded Character)
   m_SourcePrefab: {fileID: 100100000, guid: 4f46098734d87e24490aef9267915ad2, type: 3}
 --- !u!4 &5079313447214726959 stripped
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: 8fdc211ab43ca5840a5043adccecaba2, type: 3}
+--- !u!4 &910211519376240823 stripped
+>>>>>>> e6956f94 (fixed Animator issue)
 Transform:
-  m_CorrespondingSourceObject: {fileID: 4957605393579145646, guid: 4f46098734d87e24490aef9267915ad2,
+  m_CorrespondingSourceObject: {fileID: 1013331838017947232, guid: 8fdc211ab43ca5840a5043adccecaba2,
     type: 3}
+<<<<<<< HEAD
   m_PrefabInstance: {fileID: 194124816486319745}
 <<<<<<< HEAD
 >>>>>>> 4a281c55 (readded Character)
 =======
 >>>>>>> a0fce318 (readded Character)
+=======
+  m_PrefabInstance: {fileID: 194124816578836183}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_PrefabAsset: {fileID: 0}

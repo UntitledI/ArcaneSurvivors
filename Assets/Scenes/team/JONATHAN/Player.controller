@@ -13,6 +13,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Hit2
@@ -20,6 +21,12 @@ AnimatorStateTransition:
 =======
   m_Conditions: []
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: hit1
+    m_EventTreshold: 0
+>>>>>>> e6956f94 (fixed Animator issue)
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1749687154405283391}
   m_Solo: 0
@@ -35,6 +42,31 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.75
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+--- !u!1101 &-6632145445572525190
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: hit1
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: -470575750476919652}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.7413793
   m_HasExitTime: 1
 >>>>>>> 1d8a3005 (Added Combat Animations)
   m_HasFixedDuration: 1
@@ -49,6 +81,7 @@ AnimatorStateTransition:
   m_PrefabAsset: {fileID: 0}
   m_Name: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Conditions:
   - m_ConditionMode: 1
     m_ConditionEvent: Hit3
@@ -56,6 +89,12 @@ AnimatorStateTransition:
 =======
   m_Conditions: []
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: hit3
+    m_EventTreshold: 0
+>>>>>>> e6956f94 (fixed Animator issue)
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2129593925125398166}
   m_Solo: 0
@@ -71,8 +110,12 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.75
+<<<<<<< HEAD
   m_HasExitTime: 1
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  m_HasExitTime: 0
+>>>>>>> e6956f94 (fixed Animator issue)
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -149,9 +192,13 @@ AnimatorState:
   m_Transitions:
   - {fileID: -4550671788439938486}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 7811473273770696009}
 =======
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  - {fileID: 7534042361618763864}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -162,10 +209,15 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Motion: {fileID: 7400000, guid: a0e19c0edfc09554fbb4841a57d40e5b, type: 3}
 =======
   m_Motion: {fileID: 0}
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  m_Motion: {fileID: -203655887218126122, guid: fb26eae041633144198b41969883deed,
+    type: 3}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -219,12 +271,16 @@ AnimatorState:
   - {fileID: 4379693544843943059}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: -2390195041261117101}
 =======
 >>>>>>> 58e9032b (Polished Player Movement/Camera)
 =======
   - {fileID: 4302365602692048184}
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  - {fileID: 1478979564752783120}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -275,14 +331,18 @@ AnimatorStateMachine:
 =======
   - serializedVersion: 1
     m_State: {fileID: 8245194381296488804}
-    m_Position: {x: 510, y: 420, z: 0}
+    m_Position: {x: 240, y: 380, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1749687154405283391}
-    m_Position: {x: 510, y: 500, z: 0}
+    m_Position: {x: 540, y: 380, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2129593925125398166}
+<<<<<<< HEAD
     m_Position: {x: 510, y: 580, z: 0}
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+    m_Position: {x: 790, y: 380, z: 0}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -443,6 +503,31 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1101 &1478979564752783120
+AnimatorStateTransition:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: hit1
+    m_EventTreshold: 0
+  m_DstStateMachine: {fileID: 0}
+  m_DstState: {fileID: 8245194381296488804}
+  m_Solo: 0
+  m_Mute: 0
+  m_IsExit: 0
+  serializedVersion: 3
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.8557693
+  m_HasExitTime: 0
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
 --- !u!1101 &1803432264054016143
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -483,11 +568,16 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Transitions:
   - {fileID: 4902401719474745899}
 =======
   m_Transitions: []
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  m_Transitions:
+  - {fileID: 3451938635125490389}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -498,27 +588,39 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Motion: {fileID: 7400000, guid: effc1354a48db59438ac43aca4e76076, type: 3}
 =======
   m_Motion: {fileID: 0}
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  m_Motion: {fileID: -203655887218126122, guid: ee71cfde6bbd6ec47b6f0dd70b12a15b,
+    type: 3}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 58e9032b (Polished Player Movement/Camera)
 =======
 --- !u!1101 &2559764540707926197
+=======
+--- !u!1101 &3451938635125490389
+>>>>>>> e6956f94 (fixed Animator issue)
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_Conditions: []
+  m_Conditions:
+  - m_ConditionMode: 2
+    m_ConditionEvent: hit3
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -470575750476919652}
   m_Solo: 0
@@ -527,29 +629,7 @@ AnimatorStateTransition:
   serializedVersion: 3
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
-  m_ExitTime: 0.75
-  m_HasExitTime: 1
-  m_HasFixedDuration: 1
-  m_InterruptionSource: 0
-  m_OrderedInterruption: 1
-  m_CanTransitionToSelf: 1
---- !u!1101 &4302365602692048184
-AnimatorStateTransition:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_Conditions: []
-  m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 8245194381296488804}
-  m_Solo: 0
-  m_Mute: 0
-  m_IsExit: 0
-  serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.8557693
+  m_ExitTime: 0.7413793
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -636,7 +716,11 @@ AnimatorStateTransition:
   m_CanTransitionToSelf: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1101 &7811473273770696009
+=======
+--- !u!1101 &7534042361618763864
+>>>>>>> e6956f94 (fixed Animator issue)
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -645,7 +729,11 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
+<<<<<<< HEAD
     m_ConditionEvent: Hit2
+=======
+    m_ConditionEvent: hit2
+>>>>>>> e6956f94 (fixed Animator issue)
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -470575750476919652}
@@ -653,6 +741,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
+<<<<<<< HEAD
   m_TransitionDuration: 0.1
   m_TransitionOffset: 0
   m_ExitTime: 0.85
@@ -663,6 +752,16 @@ AnimatorStateTransition:
   m_CanTransitionToSelf: 1
 =======
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  m_TransitionDuration: 0.25
+  m_TransitionOffset: 0
+  m_ExitTime: 0.7413793
+  m_HasExitTime: 1
+  m_HasFixedDuration: 1
+  m_InterruptionSource: 0
+  m_OrderedInterruption: 1
+  m_CanTransitionToSelf: 1
+>>>>>>> e6956f94 (fixed Animator issue)
 --- !u!1102 &8245194381296488804
 AnimatorState:
   serializedVersion: 6
@@ -676,10 +775,14 @@ AnimatorState:
   m_Transitions:
   - {fileID: -7778161928500246270}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 521767259778615422}
 =======
   - {fileID: 2559764540707926197}
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+  - {fileID: -6632145445572525190}
+>>>>>>> e6956f94 (fixed Animator issue)
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0

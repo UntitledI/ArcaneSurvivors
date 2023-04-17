@@ -10,12 +10,17 @@ public class Combat : MonoBehaviour
     public static int noOfClicks = 0;
     float lastClickedTime = 0;
     float maxComboDelay = 1;
+<<<<<<< HEAD
 
+=======
+    // Start is called before the first frame update
+>>>>>>> 1d8a3005 (Added Combat Animations)
     void Start()
     {
         anim = GetComponent<Animator>();
     }
 
+<<<<<<< HEAD
     void Update()
     {
         if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f)
@@ -48,12 +53,19 @@ public class Combat : MonoBehaviour
                 OnClick();
             }
         }
+=======
+    // Update is called once per frame
+    void Update()
+    {
+        
+>>>>>>> 1d8a3005 (Added Combat Animations)
     }
 
     void OnClick()
     {
         lastClickedTime = Time.time;
         noOfClicks++;
+<<<<<<< HEAD
 
         if (noOfClicks == 1)
         {
@@ -79,3 +91,11 @@ public class Combat : MonoBehaviour
 }
 
 
+=======
+        if(noOfClicks == 1)
+        {
+
+        }
+    }
+}
+>>>>>>> 1d8a3005 (Added Combat Animations)

@@ -24,18 +24,22 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private Animator animator;
 
+
+
     void Start()
     {
         trueSpeed = walkSpeed;
         animator = GetComponentInChildren<Animator>();
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = false;    
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
         isGrounded = Physics.CheckSphere(transform.position, .1f, 1);
         animator.SetBool("IsGrounded", isGrounded);
 
@@ -105,4 +109,5 @@ public class ThirdPersonMovement : MonoBehaviour
         }
         controller.Move(velocity * Time.deltaTime);
     }
+
 }

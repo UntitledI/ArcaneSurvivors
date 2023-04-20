@@ -11,15 +11,20 @@ public class Combat : MonoBehaviour
     float lastClickedTime = 0;
     float maxComboDelay = 1;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
     // Start is called before the first frame update
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+
+>>>>>>> aa669ed2 (Fixed Combat Anims)
     void Start()
     {
         anim = GetComponent<Animator>();
     }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     void Update()
     {
@@ -62,24 +67,36 @@ public class Combat : MonoBehaviour
 >>>>>>> 1d8a3005 (Added Combat Animations)
 =======
         if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && anim.GetCurrentAnimatorStateInfo(0).IsName("Hit1"))
+=======
+    void Update()
+    {
+        if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f)
+>>>>>>> aa669ed2 (Fixed Combat Anims)
         {
-            anim.SetBool("Hit1", false);
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("Hit1"))
+            {
+                anim.SetBool("Hit1", false);
+            }
+
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("Hit2"))
+            {
+                anim.SetBool("Hit2", false);
+            }
+
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("Hit3"))
+            {
+                anim.SetBool("Hit3", false);
+            }
         }
-                if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && anim.GetCurrentAnimatorStateInfo(0).IsName("Hit2"))
-        {
-            anim.SetBool("Hit2", false);
-        }
-                if(anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && anim.GetCurrentAnimatorStateInfo(0).IsName("Hit3"))
-        {
-            anim.SetBool("Hit3", false);
-        }
-        if(Time.time - lastClickedTime > maxComboDelay)
+
+        if (Time.time - lastClickedTime > maxComboDelay)
         {
             noOfClicks = 0;
         }
-        if(Time.time > nextFireTime)
+
+        if (Time.time > nextFireTime)
         {
-            if(Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0))
             {
                 OnClick();
             }
@@ -91,6 +108,7 @@ public class Combat : MonoBehaviour
     {
         lastClickedTime = Time.time;
         noOfClicks++;
+<<<<<<< HEAD
 <<<<<<< HEAD
 
         if (noOfClicks == 1)
@@ -119,21 +137,34 @@ public class Combat : MonoBehaviour
 
 =======
         if(noOfClicks == 1)
+=======
+
+        if (noOfClicks == 1)
+>>>>>>> aa669ed2 (Fixed Combat Anims)
         {
             anim.SetBool("Hit1", true);
         }
+
         noOfClicks = Mathf.Clamp(noOfClicks, 0, 3);
 
-        if(noOfClicks >= 2 && anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && anim.GetCurrentAnimatorStateInfo(0).IsName("Hit1"))
+        if (noOfClicks >= 2 && anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && anim.GetCurrentAnimatorStateInfo(0).IsName("Hit1"))
         {
             anim.SetBool("Hit1", false);
             anim.SetBool("Hit2", true);
+            Debug.Log("Hit1 to Hit2 transition");
         }
-        if(noOfClicks >= 3 && anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && anim.GetCurrentAnimatorStateInfo(0).IsName("Hit2"))
+
+        if (noOfClicks >= 3 && anim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && anim.GetCurrentAnimatorStateInfo(0).IsName("Hit2"))
         {
             anim.SetBool("Hit2", false);
             anim.SetBool("Hit3", true);
+            Debug.Log("Hit2 to Hit3 transition");
         }
     }
 }
+<<<<<<< HEAD
 >>>>>>> 1d8a3005 (Added Combat Animations)
+=======
+
+
+>>>>>>> aa669ed2 (Fixed Combat Anims)

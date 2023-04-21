@@ -409,6 +409,7 @@ MonoBehaviour:
   ExpandedFileSystemItemIds: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
 <<<<<<< HEAD
@@ -422,6 +423,10 @@ MonoBehaviour:
 >>>>>>> cc3d29ac (fixing Scene Hierarchy)
   AutoSyncSelection: 0
 >>>>>>> e806e5d4 (Wwise integration)
+=======
+  ExpandedWaapiItemIds: 010000000200000005000000060000000700000013000000150000001600000017000000190000001c0000001e000000
+  AutoSyncSelection: 1
+>>>>>>> 88d75994 (All the audio things)
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 

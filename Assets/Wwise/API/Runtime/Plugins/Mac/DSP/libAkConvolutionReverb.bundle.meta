@@ -20,10 +20,14 @@ PluginImporter:
       Editor: Editor
     second:
 <<<<<<< HEAD
+<<<<<<< HEAD
       enabled: 0
 =======
       enabled: 1
 >>>>>>> e806e5d4 (Wwise integration)
+=======
+      enabled: 0
+>>>>>>> 88d75994 (All the audio things)
       settings:
         DefaultValueInitialized: true
   - first:

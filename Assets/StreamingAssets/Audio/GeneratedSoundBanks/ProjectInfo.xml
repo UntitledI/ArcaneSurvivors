@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<Project Name="Team 7 Arcane Survivors" GUID="{E9B26CAE-49CF-4372-8005-CE8117E2973F}" Generator="2022.1.3.8179"/>
 	<CacheRoot>../../../../../../../Downloads/Team_7_Arcane_Survivors/Team 7 Arcane Survivors/.cache</CacheRoot>
 	<Platforms>
@@ -13,13 +14,24 @@
 		<Platform Name="Mac" GUID="{2BB9261E-4574-4041-8B5C-867152F1C8F7}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
 		<Platform Name="Windows" GUID="{F0DE95C5-E493-4691-BD1F-3E3B3E151179}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
 >>>>>>> e806e5d4 (Wwise integration)
+=======
+	<Project Name="Team 7 Arcane Survivors" GUID="{E9B26CAE-49CF-4372-8005-CE8117E2973F}" Generator="2022.1.3.8179"/>
+	<CacheRoot>../../../../../../../Downloads/Team_7_Arcane_Survivors/Team 7 Arcane Survivors/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{2BB9261E-4574-4041-8B5C-867152F1C8F7}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../../../../Downloads/Team_7_Arcane_Survivors/Team 7 Arcane Survivors/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{F0DE95C5-E493-4691-BD1F-3E3B3E151179}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../../../../Downloads/Team_7_Arcane_Survivors/Team 7 Arcane Survivors/GeneratedSoundBanks/Windows"/>
+>>>>>>> 6393cdc4 (Regenerated soundbank)
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{A6FF6809-AF88-4023-969B-B94B32DE4076}" Default="true" UseAsStandIn="true"/>
 	</Languages>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<FileHash>{EF1D32C7-CFED-9C1C-C186-7651E4FD2124}</FileHash>
 =======
 	<FileHash>{645FB9E6-B8C6-9159-64C3-35FA1A076311}</FileHash>
 >>>>>>> e806e5d4 (Wwise integration)
+=======
+	<FileHash>{EF1D32C7-CFED-9C1C-C186-7651E4FD2124}</FileHash>
+>>>>>>> 6393cdc4 (Regenerated soundbank)
 </ProjectInfo>

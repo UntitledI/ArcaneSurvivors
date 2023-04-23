@@ -411,6 +411,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 316b5c77 (fixing Scene Hierarchy)
   ExpandedWaapiItemIds: 
@@ -430,6 +431,10 @@ MonoBehaviour:
   ExpandedWaapiItemIds: 010000000200000005000000060000000700000013000000150000001600000017000000190000001c0000001e000000
   AutoSyncSelection: 1
 >>>>>>> 88d75994 (All the audio things)
+=======
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+>>>>>>> 17224e31 (fixing divergent branch)
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 

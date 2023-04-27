@@ -38,6 +38,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 10743
 >>>>>>> 78d117e0 (Name tag re-added)
 =======
@@ -46,6 +47,9 @@ MonoBehaviour:
 =======
   controlID: 133
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+  controlID: 9896
+>>>>>>> e2a2ec1b (Health Bar slider)
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -70,6 +74,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 3071
     y: 73
     width: 1542
@@ -85,6 +90,10 @@ MonoBehaviour:
     x: 329
     y: 73
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+    x: 330
+    y: 19
+>>>>>>> e2a2ec1b (Health Bar slider)
     width: 1088
     height: 541
 >>>>>>> 78d117e0 (Name tag re-added)
@@ -159,6 +168,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_EnableMouseInput: 0
 =======
     m_EnableMouseInput: 1
@@ -169,6 +179,9 @@ MonoBehaviour:
 =======
     m_EnableMouseInput: 1
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+    m_EnableMouseInput: 0
+>>>>>>> e2a2ec1b (Health Bar slider)
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -257,6 +270,7 @@ MonoBehaviour:
   vertical: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 10682
 >>>>>>> 78d117e0 (Name tag re-added)
 =======
@@ -265,6 +279,9 @@ MonoBehaviour:
 =======
   controlID: 68
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+  controlID: 9831
+>>>>>>> e2a2ec1b (Health Bar slider)
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,6 +316,7 @@ MonoBehaviour:
   vertical: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 10658
 >>>>>>> 78d117e0 (Name tag re-added)
 =======
@@ -307,6 +325,9 @@ MonoBehaviour:
 =======
   controlID: 44
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+  controlID: 9798
+>>>>>>> e2a2ec1b (Health Bar slider)
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -330,9 +351,14 @@ MonoBehaviour:
 =======
     width: 329
     height: 562
+<<<<<<< HEAD
 >>>>>>> 78d117e0 (Name tag re-added)
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
+=======
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+>>>>>>> e2a2ec1b (Health Bar slider)
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -391,6 +417,7 @@ MonoBehaviour:
       m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ExpandedIDs: 72f8ffff0efbffff387e0000547e00006a7e0000
 >>>>>>> 78d117e0 (Name tag re-added)
 =======
@@ -399,6 +426,9 @@ MonoBehaviour:
 =======
       m_ExpandedIDs: 10fbffff3c8a0000ca8a0000e68a0000
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+      m_ExpandedIDs: 5cbcffffd4beffff00f4ffff10fbffffca8a0000e68a00008ab10000a4b10000c0b10000
+>>>>>>> e2a2ec1b (Health Bar slider)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -844,6 +874,7 @@ MonoBehaviour:
   m_Position:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 127.53059, y: -8.78015, z: 547.8818}
     speed: 2
     m_Value: {x: 127.53059, y: -8.78015, z: 547.8818}
@@ -857,6 +888,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 630.6772, y: 154.85052, z: 226.97885}
 >>>>>>> 4b56d24a (NAME TAG!!!)
+=======
+    m_Target: {x: 1071.4839, y: 548.4063, z: -5.5078125}
+    speed: 2
+    m_Value: {x: 1071.4839, y: 548.4063, z: -5.5078125}
+>>>>>>> e2a2ec1b (Health Bar slider)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -933,9 +969,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 836.51697
+    m_Target: 552.07227
     speed: 2
-    m_Value: 836.51697
+    m_Value: 552.07227
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1012,6 +1048,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 2560
     y: 802
     width: 2054
@@ -1022,6 +1059,12 @@ MonoBehaviour:
     width: 1142
     height: 533
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+    x: 329
+    y: 73
+    width: 1088
+    height: 541
+>>>>>>> e2a2ec1b (Health Bar slider)
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1219,6 +1262,7 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 127}
     m_SelectedIDs: 267f0000
     m_LastClickedID: 32550
@@ -1230,6 +1274,12 @@ MonoBehaviour:
     m_LastClickedID: 35780
     m_ExpandedIDs: 00000000928b0000948b0000968b0000988b00009a8b00009c8b000000ca9a3bffffff7f
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+    scrollPos: {x: 0, y: 399}
+    m_SelectedIDs: cc8b0000
+    m_LastClickedID: 35788
+    m_ExpandedIDs: 000000009a8b00009c8b00009e8b0000a08b0000a28b0000a48b000000ca9a3bffffff7f
+>>>>>>> e2a2ec1b (Health Bar slider)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1263,6 +1313,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 000000007082000072820000788200007a8200007c8200007e82000080820000828200008682000088820000148300004a83000056830000688400006a84000000bb00003abe0000b2be000000ca9a3bffffff7f
 =======
     m_ExpandedIDs: 00000000f87e0000fa7e0000fc7e0000fe7e0000007f0000027f000000ca9a3bffffff7f
@@ -1270,6 +1321,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000928b0000948b0000968b0000988b00009a8b00009c8b0000
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+    m_ExpandedIDs: 000000009a8b00009c8b00009e8b0000a08b0000a28b0000a48b000000ca9a3bffffff7f
+>>>>>>> e2a2ec1b (Health Bar slider)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1297,6 +1351,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 36d7faff
     m_LastClickedInstanceID: -338122
     m_HadKeyboardFocusLastEvent: 0
@@ -1314,6 +1369,11 @@ MonoBehaviour:
 >>>>>>> f7d00f64 (added more ability icons)
     m_HadKeyboardFocusLastEvent: 1
 >>>>>>> 4b56d24a (NAME TAG!!!)
+=======
+    m_SelectedInstanceIDs: 5cbcffff
+    m_LastClickedInstanceID: -17316
+    m_HadKeyboardFocusLastEvent: 0
+>>>>>>> e2a2ec1b (Health Bar slider)
     m_ExpandedInstanceIDs: c62300001a6200002e8500003685000062880000c0880000ee850000e0850000c0850000da8a0000
 >>>>>>> 78d117e0 (Name tag re-added)
     m_RenameOverlay:
@@ -1428,8 +1488,8 @@ MonoBehaviour:
     y: 0
     width: 501
     height: 987
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -1486,6 +1546,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LastInspectedObjectInstanceID: -1
 =======
   m_LastInspectedObjectInstanceID: -1934
@@ -1496,6 +1557,9 @@ MonoBehaviour:
 =======
   m_LastInspectedObjectInstanceID: 35388
 >>>>>>> f7d00f64 (added more ability icons)
+=======
+  m_LastInspectedObjectInstanceID: -17316
+>>>>>>> e2a2ec1b (Health Bar slider)
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

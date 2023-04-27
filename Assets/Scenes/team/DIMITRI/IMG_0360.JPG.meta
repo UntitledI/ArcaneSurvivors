@@ -41,6 +41,7 @@ TextureImporter:
     wrapV: 0
     wrapW: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -51,6 +52,12 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 0
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+>>>>>>> e2a2ec1b (Health Bar slider)
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -62,10 +69,14 @@ TextureImporter:
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
 <<<<<<< HEAD
+<<<<<<< HEAD
   textureType: 8
 =======
   textureType: 0
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+  textureType: 8
+>>>>>>> e2a2ec1b (Health Bar slider)
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -121,10 +132,14 @@ TextureImporter:
     physicsShape: []
     bones: []
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteID: 5e97eb03825dee720800000000000000
 =======
     spriteID: 
 >>>>>>> 78d117e0 (Name tag re-added)
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> e2a2ec1b (Health Bar slider)
     internalID: 0
     vertices: []
     indices: 

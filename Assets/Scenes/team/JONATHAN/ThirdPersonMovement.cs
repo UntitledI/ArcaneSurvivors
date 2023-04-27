@@ -15,7 +15,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public float sprintSpeed;
     bool sprinting;
     float trueSpeed;
-
+    public float sensitivity = 150f;
     //Jumping
     public float jumpHeight;
     public float gravity;
@@ -24,18 +24,22 @@ public class ThirdPersonMovement : MonoBehaviour
 
     private Animator animator;
 
+
+
     void Start()
     {
         trueSpeed = walkSpeed;
         animator = GetComponentInChildren<Animator>();
         controller = GetComponent<CharacterController>();
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.visible = false;    
+
     }
 
     // Update is called once per frame
     void Update()
     {
+
         isGrounded = Physics.CheckSphere(transform.position, .1f, 1);
         animator.SetBool("IsGrounded", isGrounded);
 
@@ -61,6 +65,7 @@ public class ThirdPersonMovement : MonoBehaviour
         //retrieves cursor coordinate input
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
+        
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
         //Moves the character in the direction of the camera
@@ -93,7 +98,7 @@ public class ThirdPersonMovement : MonoBehaviour
             animator.SetFloat("Speed", 0);
         }
         //Jumping
-        if(Input.GetButtonDown("Jump") && isGrounded)
+        if(Input.GetButtonDown("Jump") && controller.isGrounded)
         {
             velocity.y = Mathf.Sqrt((jumpHeight * 10) * -2f * gravity);
         }
@@ -104,4 +109,5 @@ public class ThirdPersonMovement : MonoBehaviour
         }
         controller.Move(velocity * Time.deltaTime);
     }
+
 }

@@ -611,10 +611,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   syncDirection: 1
 =======
   syncDirection: 0
 >>>>>>> d7648356 (Creating new player prefab for camera and third person player)
+=======
+  syncDirection: 1
+>>>>>>> d703c79d (Modifying network components on the prefab for network transform)
   syncMode: 0
   syncInterval: 0.1
   controller: {fileID: 2487640663474992725}

@@ -29,13 +29,19 @@ public class ThirdPersonMovement_network : NetworkBehaviour
     public LayerMask groundLayer;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 29a514fa (Modifying network script to call RPC Client correctly and initlizize animator)
     void Awake()
     {
         animator = GetComponentInChildren<Animator>();
         controller = GetComponent<CharacterController>();
     }
+<<<<<<< HEAD
 =======
 >>>>>>> 9e9d7b45 (Created networking scripts of player movement and combat animations)
+=======
+>>>>>>> 29a514fa (Modifying network script to call RPC Client correctly and initlizize animator)
     void Start()
     {
         trueSpeed = walkSpeed;
@@ -78,18 +84,26 @@ public class ThirdPersonMovement_network : NetworkBehaviour
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 9e9d7b45 (Created networking scripts of player movement and combat animations)
+=======
+
+>>>>>>> 29a514fa (Modifying network script to call RPC Client correctly and initlizize animator)
         //Moves the character in the direction of the camera
         if (direction.magnitude >= 0.1f)
         {
             //calculates the target angle the character is facing with the camera
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + transform.eulerAngles.y;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 9e9d7b45 (Created networking scripts of player movement and combat animations)
+=======
+
+>>>>>>> 29a514fa (Modifying network script to call RPC Client correctly and initlizize animator)
             //smoothes out the rate at which the character rotates
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             //executes the rotation of the character
@@ -126,6 +140,7 @@ public class ThirdPersonMovement_network : NetworkBehaviour
         }
         controller.Move(velocity * Time.deltaTime);
 <<<<<<< HEAD
+<<<<<<< HEAD
         // Sync animations for other players
         CmdSyncAnimations(animator.GetFloat("Speed"), isGrounded);
     }
@@ -151,23 +166,31 @@ public class ThirdPersonMovement_network : NetworkBehaviour
                 // Sync animations for other players
                 CmdSyncAnimations(animator.GetFloat("Speed"), isGrounded);
             }
+=======
+        // Sync animations for other players
+        CmdSyncAnimations(animator.GetFloat("Speed"), isGrounded);
+    }
+>>>>>>> 29a514fa (Modifying network script to call RPC Client correctly and initlizize animator)
 
-            [Command]
-            void CmdSyncAnimations(float speed, bool grounded)
-            {
-                RpcSyncAnimations(speed, grounded);
-            }
 
-            [ClientRpc]
-            void RpcSyncAnimations(float speed, bool grounded)
-            {
-                if (isLocalPlayer) return;
 
-                animator.SetFloat("Speed", speed);
-                animator.SetBool("IsGrounded", grounded);
-            }
+    [Command]
+        void CmdSyncAnimations(float speed, bool grounded)
+        {
+            RpcSyncAnimations(speed, grounded);
         }
 
+        [ClientRpc]
+        void RpcSyncAnimations(float speed, bool grounded)
+        {
+            if (isLocalPlayer) return;
 
+<<<<<<< HEAD
 >>>>>>> 9e9d7b45 (Created networking scripts of player movement and combat animations)
+=======
+            animator.SetFloat("Speed", speed);
+            animator.SetBool("IsGrounded", grounded);
+        }
+}
+>>>>>>> 29a514fa (Modifying network script to call RPC Client correctly and initlizize animator)
 

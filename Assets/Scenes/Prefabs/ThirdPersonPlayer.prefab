@@ -610,7 +610,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac454d8f543f33343be59d99cc4ceff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   syncDirection: 1
+=======
+  syncDirection: 0
+>>>>>>> d7648356 (Creating new player prefab for camera and third person player)
   syncMode: 0
   syncInterval: 0.1
   controller: {fileID: 2487640663474992725}

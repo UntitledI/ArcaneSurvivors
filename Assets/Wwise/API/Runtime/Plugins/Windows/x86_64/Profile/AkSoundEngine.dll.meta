@@ -62,6 +62,7 @@ PluginImporter:
       enabled: 0
       settings:
         CPU: AnyCPU
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
       enabled: 0
@@ -80,6 +81,8 @@ PluginImporter:
 >>>>>>> e806e5d4 (Wwise integration)
 =======
 >>>>>>> 2dd69085 (Animated Player)
+=======
+>>>>>>> 3ae4907a (Updates to Wwise)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

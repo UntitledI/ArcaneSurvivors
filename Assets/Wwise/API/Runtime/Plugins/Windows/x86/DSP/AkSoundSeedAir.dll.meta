@@ -23,6 +23,9 @@ PluginImporter:
       settings:
         DefaultValueInitialized: true
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3ae4907a (Updates to Wwise)
   - first:
       Standalone: Linux64
     second:
@@ -47,8 +50,11 @@ PluginImporter:
       enabled: 0
       settings:
         CPU: None
+<<<<<<< HEAD
 =======
 >>>>>>> e806e5d4 (Wwise integration)
+=======
+>>>>>>> 3ae4907a (Updates to Wwise)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

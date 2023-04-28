@@ -28,6 +28,11 @@ public class ThirdPersonMovement_network : NetworkBehaviour
     // Ground Layer
     public LayerMask groundLayer;
 
+    void Awake()
+    {
+        animator = GetComponentInChildren<Animator>();
+        controller = GetComponent<CharacterController>();
+    }
     void Start()
     {
         trueSpeed = walkSpeed;
@@ -69,11 +74,13 @@ public class ThirdPersonMovement_network : NetworkBehaviour
 
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
+
         //Moves the character in the direction of the camera
         if (direction.magnitude >= 0.1f)
         {
             //calculates the target angle the character is facing with the camera
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + transform.eulerAngles.y;
+
             //smoothes out the rate at which the character rotates
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
             //executes the rotation of the character
@@ -109,25 +116,25 @@ public class ThirdPersonMovement_network : NetworkBehaviour
             velocity.y += (gravity * 10) * Time.deltaTime;
         }
         controller.Move(velocity * Time.deltaTime);
-                // Sync animations for other players
-                CmdSyncAnimations(animator.GetFloat("Speed"), isGrounded);
-            }
+        // Sync animations for other players
+        CmdSyncAnimations(animator.GetFloat("Speed"), isGrounded);
+    }
 
-            [Command]
-            void CmdSyncAnimations(float speed, bool grounded)
-            {
-                RpcSyncAnimations(speed, grounded);
-            }
 
-            [ClientRpc]
-            void RpcSyncAnimations(float speed, bool grounded)
-            {
-                if (isLocalPlayer) return;
 
-                animator.SetFloat("Speed", speed);
-                animator.SetBool("IsGrounded", grounded);
-            }
+    [Command]
+        void CmdSyncAnimations(float speed, bool grounded)
+        {
+            RpcSyncAnimations(speed, grounded);
         }
 
+        [ClientRpc]
+        void RpcSyncAnimations(float speed, bool grounded)
+        {
+            if (isLocalPlayer) return;
 
+            animator.SetFloat("Speed", speed);
+            animator.SetBool("IsGrounded", grounded);
+        }
+}
 

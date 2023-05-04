@@ -2661,7 +2661,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 500
   m_WholeNumbers: 0
-  m_Value: 32
+  m_Value: 79
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3186,6 +3186,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+  arrowObject: {fileID: 8937722048353781841, guid: cd2f9bd585fa35842809b41d6ae70842,
+    type: 3}
+  arrowPoint: {fileID: 2144388261}
 --- !u!54 &2144388264
 Rigidbody:
   m_ObjectHideFlags: 0

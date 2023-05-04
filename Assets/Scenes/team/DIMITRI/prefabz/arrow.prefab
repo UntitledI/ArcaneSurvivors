@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8937722048356947025}
   - component: {fileID: 8937722048355980945}
   - component: {fileID: 2885257002515151854}
+  - component: {fileID: 1849951017039617574}
   - component: {fileID: 8143007489017761674}
   m_Layer: 0
   m_Name: arrow
@@ -29,11 +30,11 @@ Transform:
   m_GameObject: {fileID: 8937722048353781841}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 624.54, y: 157.45, z: 240.01}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8937722048356947025
 MeshFilter:
@@ -106,6 +107,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0831089, y: 0.851583, z: 0.32917595}
   m_Center: {x: -0.0000009536743, y: 0.16753173, z: 0.119353294}
+--- !u!114 &1849951017039617574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937722048353781841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affda03853e8416498acb8cfc24a37dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!54 &8143007489017761674
 Rigidbody:
   m_ObjectHideFlags: 0

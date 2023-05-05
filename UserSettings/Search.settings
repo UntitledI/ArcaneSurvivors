@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 trackSelection = true
 fetchPreview = true
 defaultFlags = 0
@@ -67,3 +68,6 @@ queryBuilder = false
 ignoredProperties = "id;name;classname;imagecontentshash"
 helperWidgetCurrentArea = "all"
 disabledIndexers = ""
+=======
+{}
+>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)

@@ -6,6 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< HEAD
       value: 505202555c03590e595d557a49265e4447151979287b20327d7d1965e6e3326b
       flags: 0
     RecentlyUsedSceneGuid-1:
@@ -34,6 +35,36 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-9:
       value: 5752565554065a0c55085c77447b5e444116482c782a23332c781b32e0b7356c
+=======
+      value: 0552055257505b58595e582613755e44144e1b797b2d70317a7a1932e4e5636e
+      flags: 0
+    RecentlyUsedSceneGuid-1:
+      value: 550106025c505e580f5d0f2412720644144e417e782c753229794863b1b3356b
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 05050d0757560b0b0b5c5e724875094412164d7e747f746028791860b2b7363e
+      flags: 0
+    RecentlyUsedSceneGuid-3:
+      value: 5b09515e5d0308025a560a72147606444e161d2c2d7a2264792d4465e7b36069
+      flags: 0
+    RecentlyUsedSceneGuid-4:
+      value: 07555656510608090b0b5e7144270944414f1b282f7d24667b2c4d61e0b0673c
+      flags: 0
+    RecentlyUsedSceneGuid-5:
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+      flags: 0
+    RecentlyUsedSceneGuid-6:
+      value: 065457525d505902585e0f2440755d44474e4173757e77317a7c1f35b1e3353e
+      flags: 0
+    RecentlyUsedSceneGuid-7:
+      value: 5750565254025b5f5e5e597416700844144f4a7e7e7a27667d2b4d30e7b6636a
+>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy)
+      flags: 0
+    RecentlyUsedSceneGuid-8:
+      value: 5657550006545e03595c5f7316760a4417151a78297a7067287b4e63e1e4646c
+      flags: 0
+    RecentlyUsedSceneGuid-9:
+      value: 5a09005656040d080e570f7b427b5e4417151e78282d27362b7a1961b0b5666e
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

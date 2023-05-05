@@ -1439,6 +1439,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   totalMonsters: 2000
   monstersPerWave: 50
 =======
@@ -1461,6 +1462,10 @@ MonoBehaviour:
   totalMonsters: 100
   monstersPerWave: 5
 >>>>>>> 2ebe1d67 (ability changes)
+=======
+  totalMonsters: 2000
+  monstersPerWave: 50
+>>>>>>> 1fc6214b (pushing updated work)
   timeBetweenWaves: 2
 --- !u!114 &1723122714
 MonoBehaviour:

@@ -2,6 +2,20 @@
   "dependencies": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+    "com.unity.ai.navigation": {
+      "version": "1.1.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.ai": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
+>>>>>>> 59065f6e2d442eeec761b44c08426b7bf3c42f9f
     "com.unity.cinemachine": {
       "version": "2.9.5",
       "depth": 0,

@@ -12,6 +12,10 @@ guid: d83f241364eceaf4081bf2b3ee6ee87b
 guid: 9fa5f148f7d51d34ca1c97cc622e3e1c
 folderAsset: yes
 >>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy):Assets/Scenes/team/BRANDON/brandon_scene.meta
+=======
+guid: 9fa5f148f7d51d34ca1c97cc622e3e1c
+folderAsset: yes
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -2148,7 +2148,7 @@ GameObject:
   m_Component:
   - component: {fileID: 429566}
   - component: {fileID: 9589290}
-  - component: {fileID: 2106173043732756732}
+  - component: {fileID: 9213045896786524977}
   - component: {fileID: 7669444062429251334}
   m_Layer: 0
   m_Name: Goblin lv 1
@@ -2166,7 +2166,7 @@ Transform:
   m_GameObject: {fileID: 149914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 25, y: 25, z: 25}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 403144}
@@ -2232,7 +2232,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &2106173043732756732
+--- !u!114 &9213045896786524977
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2253,7 +2253,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149914}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 2debad4ac21a6644faf4fc93bd5b5869, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2261,12 +2261,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.6, y: 3, z: 0.6}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1 &150288
 GameObject:
   m_ObjectHideFlags: 0

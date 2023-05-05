@@ -1,6 +1,10 @@
 {
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    "com.unity.ai.navigation": "1.1.1",
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
     "com.unity.cinemachine": "2.9.5",
 =======
     "com.unity.ai.navigation": "1.1.1",

@@ -410,9 +410,12 @@ MonoBehaviour:
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 316b5c77 (fixing Scene Hierarchy)
 =======
 >>>>>>> 17224e31 (fixing divergent branch)
+=======
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 

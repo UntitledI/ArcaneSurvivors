@@ -1436,6 +1436,7 @@ MonoBehaviour:
   spawnDistance: 500
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   totalMonsters: 2000
   monstersPerWave: 50
 =======
@@ -1446,6 +1447,10 @@ MonoBehaviour:
   totalMonsters: 2000
   monstersPerWave: 50
 >>>>>>> 1fc6214b (pushing updated work)
+=======
+  totalMonsters: 2000
+  monstersPerWave: 50
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
   timeBetweenWaves: 2
 --- !u!114 &1723122714
 MonoBehaviour:

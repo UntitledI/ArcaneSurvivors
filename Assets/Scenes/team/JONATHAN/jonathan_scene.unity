@@ -3131,6 +3131,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> eff5772a (Player Movement repush)
 =======
@@ -3805,6 +3806,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 194124815086668078, guid: cee49152b63160b4c94c3a6b41795149,
 >>>>>>> 1d8a3005 (Added Combat Animations)
 =======
+=======
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
     m_RemovedComponents:
     - {fileID: 457091864, guid: cee49152b63160b4c94c3a6b41795149, type: 3}
     - {fileID: 457091863, guid: cee49152b63160b4c94c3a6b41795149, type: 3}
@@ -3812,7 +3815,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4501532701612763630, guid: cee49152b63160b4c94c3a6b41795149,
+<<<<<<< HEAD
 >>>>>>> e6956f94 (fixed Animator issue)
+=======
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1757253544}
@@ -3869,6 +3875,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.15229033
 =======
       value: 0.15229031
@@ -3891,6 +3898,9 @@ PrefabInstance:
 =======
       value: 0.25651148
 >>>>>>> aa669ed2 (Fixed Combat Anims)
+=======
+      value: 0.25651148
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
       objectReference: {fileID: 0}
     - target: {fileID: 4973089214769761108, guid: be6c3a02d55668f459253ff56d71b43d,
         type: 3}
@@ -3900,6 +3910,7 @@ PrefabInstance:
     - target: {fileID: 4973089214769761108, guid: be6c3a02d55668f459253ff56d71b43d,
         type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3929,6 +3940,9 @@ PrefabInstance:
 =======
       value: -0.0028831798
 >>>>>>> aa669ed2 (Fixed Combat Anims)
+=======
+      value: -0.0028831798
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
       objectReference: {fileID: 0}
     - target: {fileID: 4973089214769761108, guid: be6c3a02d55668f459253ff56d71b43d,
         type: 3}
@@ -4034,6 +4048,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.167596
 =======
       value: 0.16759598
@@ -4056,10 +4071,14 @@ PrefabInstance:
 =======
       value: 0.2715989
 >>>>>>> aa669ed2 (Fixed Combat Anims)
+=======
+      value: 0.2715989
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
       objectReference: {fileID: 0}
     - target: {fileID: 8243577947728807980, guid: 87106676f0136384aa53425bc2dc68bf,
         type: 3}
       propertyPath: m_LocalRotation.y
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4085,10 +4104,14 @@ PrefabInstance:
 =======
       value: 0.01081676
 >>>>>>> aa669ed2 (Fixed Combat Anims)
+=======
+      value: 0.01081676
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
       objectReference: {fileID: 0}
     - target: {fileID: 8243577947728807980, guid: 87106676f0136384aa53425bc2dc68bf,
         type: 3}
       propertyPath: m_LocalRotation.z
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4114,6 +4137,9 @@ PrefabInstance:
 =======
       value: -0.0030527732
 >>>>>>> aa669ed2 (Fixed Combat Anims)
+=======
+      value: -0.0030527732
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
       objectReference: {fileID: 0}
     - target: {fileID: 8243577947941438148, guid: 87106676f0136384aa53425bc2dc68bf,
         type: 3}

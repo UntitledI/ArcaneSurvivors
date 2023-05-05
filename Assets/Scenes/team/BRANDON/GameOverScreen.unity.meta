@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Quirky Series Ultimate/FREE/Demo/Demo_Sparrow.unity.meta
 guid: a428ad98c5c71f747aaa1de7c121d7bc
 ========
 guid: 5fafca784231f554abb2e267e230cd04
 >>>>>>>> 13894a2e (Commiting my branch to the github. Added an ai enemmy):Assets/Scenes/team/BRANDON/GameOverScreen.unity.meta
+=======
+guid: 5fafca784231f554abb2e267e230cd04
+>>>>>>> d9786c2432504cae75fd4c0da53446dd2261cea5
 DefaultImporter:
   externalObjects: {}
   userData: 

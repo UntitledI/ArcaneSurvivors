@@ -9,11 +9,6 @@ public class PoisonAura : MonoBehaviour
 
     private float lastActivatedTime = -Mathf.Infinity;
 
-    private void Start()
-    {
-        LoadParticleSystem();
-    }
-
     private void LoadParticleSystem()
     {
         // Check if the cooldown has passed
@@ -27,6 +22,13 @@ public class PoisonAura : MonoBehaviour
             }
 
             lastActivatedTime = Time.time; // Set the last activated time to now
+        }
+    }
+    private void Update() //will always check once initialize
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha4)) //change input to your desired key
+        {
+            LoadParticleSystem(); //call ability function
         }
     }
 }

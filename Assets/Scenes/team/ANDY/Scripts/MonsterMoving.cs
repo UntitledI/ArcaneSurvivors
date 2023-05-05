@@ -1,22 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
+using UnityEngine.AI;
 
-public class MonsterMoving : MonoBehaviour
-{
-    [SerializeField] private float moveSpeed = 3f;
-    [SerializeField] private float turnSpeed = 10f;
+public class MonsterMoving : MonoBehaviour {
+    private GameObject player;
+    private NavMeshAgent navMeshAgent;
 
-    private Transform playerTransform;
-
-    private void Start()
-    {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
+    void Start () {
+        player = GameObject.FindGameObjectWithTag("Player");
+        navMeshAgent = GetComponent<NavMeshAgent>();
     }
 
-    private void Update()
-    {
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(playerTransform.position - transform.position), turnSpeed * Time.deltaTime);
+    void Update () {
+        navMeshAgent.SetDestination(player.transform.position);
     }
 }

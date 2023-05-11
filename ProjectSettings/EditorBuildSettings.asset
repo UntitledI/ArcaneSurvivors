@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/team/BRANDON/GameOverScreen.unity
     guid: 5fafca784231f554abb2e267e230cd04
+  - enabled: 1
+    path: Assets/Scenes/team/DIMITRI/dimitri_scene.unity
+    guid: 6c18b6b9aa2ab3146aa4c6fecc0dfe7d
   m_configObjects: {}

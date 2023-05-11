@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class TitleScreen : MonoBehaviour
 {
 
-    public string newGameScene;
+    public string newGameScene; 
     // Start is called before the first frame update
     void Start()
     {

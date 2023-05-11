@@ -19,11 +19,16 @@ public class TitleScreen : MonoBehaviour
         
     }
 
+    public void MainMenu() {
+
+    }
+
     public void StartGame() {
         SceneManager.LoadScene(newGameScene);
     }
 
     public void Quit() {
+        Debug.Log("Quit");
         Application.Quit();
     }
 }

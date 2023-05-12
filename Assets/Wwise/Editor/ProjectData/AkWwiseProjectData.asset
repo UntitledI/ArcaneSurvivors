@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: ab1c836aacdedd448ff58a43d6661b53
     GuidInternal: 
-    m_lastTime: -8585212359418062006
+    m_lastTime: -8585177464115274975
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6e950059bb2189429db758208c1ac1b8
     GuidInternal: 
-    m_lastTime: -8585212359437645572
+    m_lastTime: -8585177464140364917
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 15c306cbe6c9f5468a6f750d8fd94e9b
     GuidInternal: 
-    m_lastTime: -8585212359426247077
+    m_lastTime: -8585177464123874962
     List:
     - name: Main
       guid: bd8882fdfc2a4f4f8832d39c5a4dbdb1
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
     GuidInternal: 
-    m_lastTime: -8585212359438271373
+    m_lastTime: -8585177464147219916
     List:
-    - name: Play_Ambience_Town
-      guid: 1f4b431cffbcd243ad84f3dadd59b679
-      id: 3468413433
+    - name: Play_AS_Angry_Sparrow
+      guid: f5ad2d473c6f7f4bafa69eda13085666
+      id: 499148921
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,16 +106,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_Ambience_Town
+      - ElementName: Play_AS_Angry_Sparrow
         ObjectType: 3
-        guid: 1f4b431cffbcd243ad84f3dadd59b679
-      Path: Events\Default Work Unit\Play_Ambience_Town
+        guid: f5ad2d473c6f7f4bafa69eda13085666
+      Path: Events\Default Work Unit\Play_AS_Angry_Sparrow
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Music_Finalboss_Map_1
-      guid: 50edd208b76f814580dd58346fe8ed4d
-      id: 3669722927
+    - name: Play_AS_Bear_Death
+      guid: 3ec39646b9a5654593bf3cf7d7ac85d1
+      id: 3737696524
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -123,16 +123,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Music_Finalboss_Map_1
+      - ElementName: Play_AS_Bear_Death
         ObjectType: 3
-        guid: 50edd208b76f814580dd58346fe8ed4d
-      Path: Events\Default Work Unit\Play_AS_Music_Finalboss_Map_1
+        guid: 3ec39646b9a5654593bf3cf7d7ac85d1
+      Path: Events\Default Work Unit\Play_AS_Bear_Death
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Music_Lvl_1_Map_1
-      guid: 7f285233c7dca74f8099b34e95739060
-      id: 66508634
+    - name: Play_AS_Chicken_Cluck
+      guid: 7d052104879ec3419f4609807f506d61
+      id: 4022578367
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -140,16 +140,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Music_Lvl_1_Map_1
+      - ElementName: Play_AS_Chicken_Cluck
         ObjectType: 3
-        guid: 7f285233c7dca74f8099b34e95739060
-      Path: Events\Default Work Unit\Play_AS_Music_Lvl_1_Map_1
+        guid: 7d052104879ec3419f4609807f506d61
+      Path: Events\Default Work Unit\Play_AS_Chicken_Cluck
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Music_Lvl_2_Map_1
-      guid: 04970b2093975f4b903a01fa6f2548d4
-      id: 2743821481
+    - name: Play_AS_Chicken_Death
+      guid: 6b12beee51f3cb40ba1c41a19de8ec36
+      id: 2272656441
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -157,16 +157,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Music_Lvl_2_Map_1
+      - ElementName: Play_AS_Chicken_Death
         ObjectType: 3
-        guid: 04970b2093975f4b903a01fa6f2548d4
-      Path: Events\Default Work Unit\Play_AS_Music_Lvl_2_Map_1
+        guid: 6b12beee51f3cb40ba1c41a19de8ec36
+      Path: Events\Default Work Unit\Play_AS_Chicken_Death
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Music_Lvl_3_Map_1
-      guid: 6c93f8b9d880b14c8b74318e8808683b
-      id: 485989956
+    - name: Play_AS_Player_Attack_Basic_1
+      guid: 890923df0f529f4b989e850cbe1a2882
+      id: 520123718
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -174,16 +174,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Music_Lvl_3_Map_1
+      - ElementName: Play_AS_Player_Attack_Basic_1
         ObjectType: 3
-        guid: 6c93f8b9d880b14c8b74318e8808683b
-      Path: Events\Default Work Unit\Play_AS_Music_Lvl_3_Map_1
+        guid: 890923df0f529f4b989e850cbe1a2882
+      Path: Events\Default Work Unit\Play_AS_Player_Attack_Basic_1
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Music_Miniboss_Map_1
-      guid: 947ec1b20c1e5b429848a5ccff566e00
-      id: 3753721680
+    - name: Play_AS_Player_Attack_Meteor
+      guid: 3a3026e701ec714181af33ed5caae692
+      id: 1812850964
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -191,16 +191,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Music_Miniboss_Map_1
+      - ElementName: Play_AS_Player_Attack_Meteor
         ObjectType: 3
-        guid: 947ec1b20c1e5b429848a5ccff566e00
-      Path: Events\Default Work Unit\Play_AS_Music_Miniboss_Map_1
+        guid: 3a3026e701ec714181af33ed5caae692
+      Path: Events\Default Work Unit\Play_AS_Player_Attack_Meteor
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Music_Town
-      guid: 7e3fb7574fa21e47894d367c05cde075
-      id: 3615401001
+    - name: Play_AS_Player_Attack_MeteorHit
+      guid: ccdfb66ad7813847abc478b9ac6428c7
+      id: 3389122683
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -208,16 +208,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Music_Town
+      - ElementName: Play_AS_Player_Attack_MeteorHit
         ObjectType: 3
-        guid: 7e3fb7574fa21e47894d367c05cde075
-      Path: Events\Default Work Unit\Play_AS_Music_Town
+        guid: ccdfb66ad7813847abc478b9ac6428c7
+      Path: Events\Default Work Unit\Play_AS_Player_Attack_MeteorHit
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Music_Town_Jester
-      guid: 973b79fb5a388a4288ba6a4859336489
-      id: 2756004695
+    - name: Play_AS_Player_Attack_SpinningV2
+      guid: af5824abb74a9b49ab66cf6f4a61fd35
+      id: 1064058046
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -225,16 +225,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Music_Town_Jester
+      - ElementName: Play_AS_Player_Attack_SpinningV2
         ObjectType: 3
-        guid: 973b79fb5a388a4288ba6a4859336489
-      Path: Events\Default Work Unit\Play_AS_Music_Town_Jester
+        guid: af5824abb74a9b49ab66cf6f4a61fd35
+      Path: Events\Default Work Unit\Play_AS_Player_Attack_SpinningV2
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Step_Concrete_1
-      guid: 9e281b1abedad2418821895811032db6
-      id: 2872411375
+    - name: Play_AS_Player_Attack_Strong
+      guid: ae3b19e4d6c76a4e816bb801c6bbbf49
+      id: 2829305897
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -242,16 +242,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Step_Concrete_1
+      - ElementName: Play_AS_Player_Attack_Strong
         ObjectType: 3
-        guid: 9e281b1abedad2418821895811032db6
-      Path: Events\Default Work Unit\Play_AS_Step_Concrete_1
+        guid: ae3b19e4d6c76a4e816bb801c6bbbf49
+      Path: Events\Default Work Unit\Play_AS_Player_Attack_Strong
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Step_Concrete_2
-      guid: c8513573ef713840aaebfef3fbffb296
-      id: 2872411372
+    - name: Play_AS_Player_Bow_Fire
+      guid: ec042314859abf41b53297ce2bd5ae49
+      id: 3037876714
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -259,16 +259,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Step_Concrete_2
+      - ElementName: Play_AS_Player_Bow_Fire
         ObjectType: 3
-        guid: c8513573ef713840aaebfef3fbffb296
-      Path: Events\Default Work Unit\Play_AS_Step_Concrete_2
+        guid: ec042314859abf41b53297ce2bd5ae49
+      Path: Events\Default Work Unit\Play_AS_Player_Bow_Fire
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Step_Hardwood_1
-      guid: 62125fb4f7a29f4999fdfa088ae03644
-      id: 1972203458
+    - name: Play_AS_Player_Bow_Pull
+      guid: f3c661fd75ff044997fcf78edf88a3ca
+      id: 502693515
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -276,16 +276,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Step_Hardwood_1
+      - ElementName: Play_AS_Player_Bow_Pull
         ObjectType: 3
-        guid: 62125fb4f7a29f4999fdfa088ae03644
-      Path: Events\Default Work Unit\Play_AS_Step_Hardwood_1
+        guid: f3c661fd75ff044997fcf78edf88a3ca
+      Path: Events\Default Work Unit\Play_AS_Player_Bow_Pull
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: Play_AS_Step_Hardwood_2
-      guid: 55eec7acd50c7945a00af0685b77c280
-      id: 1972203457
+    - name: Play_AS_Player_Teleport
+      guid: c6c08912ef880544bedc04e6a1814f39
+      id: 1855605804
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -293,10 +293,163 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
-      - ElementName: Play_AS_Step_Hardwood_2
+      - ElementName: Play_AS_Player_Teleport
         ObjectType: 3
-        guid: 55eec7acd50c7945a00af0685b77c280
-      Path: Events\Default Work Unit\Play_AS_Step_Hardwood_2
+        guid: c6c08912ef880544bedc04e6a1814f39
+      Path: Events\Default Work Unit\Play_AS_Player_Teleport
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AS_Town_Ambience
+      guid: 8adbdb0dcd781348b45ba4fc335cc8cb
+      id: 2343100972
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_AS_Town_Ambience
+        ObjectType: 3
+        guid: 8adbdb0dcd781348b45ba4fc335cc8cb
+      Path: Events\Default Work Unit\Play_AS_Town_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_AS_Town_Jester
+      guid: df481842a6cb914ba67c999d56107f23
+      id: 1509866655
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_AS_Town_Jester
+        ObjectType: 3
+        guid: df481842a6cb914ba67c999d56107f23
+      Path: Events\Default Work Unit\Play_AS_Town_Jester
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Bear_Roar
+      guid: e19febfb70034a478fb001aeeb3b3236
+      id: 2645963019
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_Bear_Roar
+        ObjectType: 3
+        guid: e19febfb70034a478fb001aeeb3b3236
+      Path: Events\Default Work Unit\Play_Bear_Roar
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Chicken_Scream
+      guid: d752b89971114245ae7b2e51d3f4dd1c
+      id: 429085333
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_Chicken_Scream
+        ObjectType: 3
+        guid: d752b89971114245ae7b2e51d3f4dd1c
+      Path: Events\Default Work Unit\Play_Chicken_Scream
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Footsteps
+      guid: 21478ccc9b1a6c43b84dbd784f4531dc
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: 21478ccc9b1a6c43b84dbd784f4531dc
+      Path: Events\Default Work Unit\Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Gameplay_Music_Switch
+      guid: fb74ba4dbabb1b4eb75c95b76dc1acd0
+      id: 3847527849
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_Gameplay_Music_Switch
+        ObjectType: 3
+        guid: fb74ba4dbabb1b4eb75c95b76dc1acd0
+      Path: Events\Default Work Unit\Play_Gameplay_Music_Switch
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Goblin_Death
+      guid: 5086d996fb0a1f4a86e0aab8cdc4a708
+      id: 1417526644
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_Goblin_Death
+        ObjectType: 3
+        guid: 5086d996fb0a1f4a86e0aab8cdc4a708
+      Path: Events\Default Work Unit\Play_Goblin_Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Goblin_Yell
+      guid: 9278b12b21e0d14ca835c3a57ab4bccf
+      id: 1243633752
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_Goblin_Yell
+        ObjectType: 3
+        guid: 9278b12b21e0d14ca835c3a57ab4bccf
+      Path: Events\Default Work Unit\Play_Goblin_Yell
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Menu_Music
+      guid: 0a7042ee9891074784aa6014e0b31edf
+      id: 2228153899
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c9b4c3eb13f9d54a9b42f901b4ee2bca
+      - ElementName: Play_Menu_Music
+        ObjectType: 3
+        guid: 0a7042ee9891074784aa6014e0b31edf
+      Path: Events\Default Work Unit\Play_Menu_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -312,7 +465,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 420f6998eaffe4499838cad8c2d4cfb2
     GuidInternal: 
-    m_lastTime: -8585212359438122367
+    m_lastTime: -8585177464147049912
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -326,7 +479,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: fd6ebda4b88ccb4a89022fa4b6f4021b
     GuidInternal: 
-    m_lastTime: -8585212359418489141
+    m_lastTime: -8585177464115799973
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -340,7 +493,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: e865c446b8cad44fa63ca53582efcc07
     GuidInternal: 
-    m_lastTime: -8585212359418345112
+    m_lastTime: -8585177464115619978
     List:
     - name: Footsteps
       guid: c26beee8ce9936478e22505e8d045897
@@ -357,25 +510,9 @@ MonoBehaviour:
         guid: c26beee8ce9936478e22505e8d045897
       Path: Switches\Default Work Unit\Footsteps
       values:
-      - name: Footsteps_Concrete
-        guid: 7e2c0ffb3a3e9947950f9675737d7128
-        id: 82718740
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: e865c446b8cad44fa63ca53582efcc07
-        - ElementName: Footsteps
-          ObjectType: 11
-          guid: c26beee8ce9936478e22505e8d045897
-        - ElementName: Footsteps_Concrete
-          ObjectType: 10
-          guid: 7e2c0ffb3a3e9947950f9675737d7128
-      - name: Footsteps_Grass
+      - name: Grass
         guid: e63e57252d13b1419efded99a891e048
-        id: 7365553
+        id: 4248645337
         PathAndIcons:
         - ElementName: Switches
           ObjectType: 5
@@ -386,9 +523,107 @@ MonoBehaviour:
         - ElementName: Footsteps
           ObjectType: 11
           guid: c26beee8ce9936478e22505e8d045897
-        - ElementName: Footsteps_Grass
+        - ElementName: Grass
           ObjectType: 10
           guid: e63e57252d13b1419efded99a891e048
+      - name: Stone
+        guid: 7e2c0ffb3a3e9947950f9675737d7128
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e865c446b8cad44fa63ca53582efcc07
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: c26beee8ce9936478e22505e8d045897
+        - ElementName: Stone
+          ObjectType: 10
+          guid: 7e2c0ffb3a3e9947950f9675737d7128
+      - name: Wood
+        guid: 5e6892c663806b4a918e29c4c7354a5e
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e865c446b8cad44fa63ca53582efcc07
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: c26beee8ce9936478e22505e8d045897
+        - ElementName: Wood
+          ObjectType: 10
+          guid: 5e6892c663806b4a918e29c4c7354a5e
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music
+      guid: 99b9a0493ac7bf4aa85b9a81ecaee73a
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e865c446b8cad44fa63ca53582efcc07
+      - ElementName: Music
+        ObjectType: 11
+        guid: 99b9a0493ac7bf4aa85b9a81ecaee73a
+      Path: Switches\Default Work Unit\Music
+      values:
+      - name: Boss
+        guid: c5507e2ccd0f2a4297c5c624d21f248a
+        id: 1560169506
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e865c446b8cad44fa63ca53582efcc07
+        - ElementName: Music
+          ObjectType: 11
+          guid: 99b9a0493ac7bf4aa85b9a81ecaee73a
+        - ElementName: Boss
+          ObjectType: 10
+          guid: c5507e2ccd0f2a4297c5c624d21f248a
+      - name: Combat
+        guid: d48b5b85325c884dad5ba29d298451c9
+        id: 2764240573
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e865c446b8cad44fa63ca53582efcc07
+        - ElementName: Music
+          ObjectType: 11
+          guid: 99b9a0493ac7bf4aa85b9a81ecaee73a
+        - ElementName: Combat
+          ObjectType: 10
+          guid: d48b5b85325c884dad5ba29d298451c9
+      - name: Town
+        guid: 2e327bde3b9b8c4aac9716bceda5200f
+        id: 3091570009
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: e865c446b8cad44fa63ca53582efcc07
+        - ElementName: Music
+          ObjectType: 11
+          guid: 99b9a0493ac7bf4aa85b9a81ecaee73a
+        - ElementName: Town
+          ObjectType: 10
+          guid: 2e327bde3b9b8c4aac9716bceda5200f
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -404,10 +639,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 61c29d5e6d849c4dbbf06fc1f1d08d3e
     GuidInternal: 
-    m_lastTime: -8585212359418201080
+    m_lastTime: -8585177464115444979
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 03000000050000000600000008000000090000001f000000210000002200000025000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -293,6 +293,7 @@ RectTransform:
   - {fileID: 1098724382}
   - {fileID: 1311285876}
   - {fileID: 941197741}
+  - {fileID: 978667204}
   m_Father: {fileID: 925768116}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1638,7 +1639,7 @@ GameObject:
   - component: {fileID: 792117727}
   - component: {fileID: 792117726}
   m_Layer: 0
-  m_Name: JoinLobbyButton
+  m_Name: JoinButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1708,7 +1709,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 792117727}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1374259250}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &792117727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1874,7 +1887,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &941197741
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1886,8 +1899,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 978667204}
+  m_Children: []
   m_Father: {fileID: 58034327}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1913,7 +1925,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &978667204
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1921,7 +1933,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978667203}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1932,7 +1944,7 @@ RectTransform:
   - {fileID: 1323659230}
   - {fileID: 1402663443}
   - {fileID: 1558200081}
-  m_Father: {fileID: 941197741}
+  m_Father: {fileID: 58034327}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -2308,7 +2320,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c16a705ffb912614699b3730f94e2910, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e9a09955e73b5c42b43b442031de923, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2832,6 +2844,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fbcc54670d24134f84d94fdca4ff0d5, type: 3}
+--- !u!1 &1374259250 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2234953822306943796, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1374259249}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1392639085
 GameObject:
   m_ObjectHideFlags: 0
@@ -3932,7 +3950,7 @@ GameObject:
   - component: {fileID: 1734801480}
   - component: {fileID: 1734801479}
   m_Layer: 0
-  m_Name: HostLobbyButton
+  m_Name: HostButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4002,7 +4020,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1734801480}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1374259250}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1734801480
 MonoBehaviour:
   m_ObjectHideFlags: 0

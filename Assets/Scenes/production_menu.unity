@@ -2723,6 +2723,115 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1334408664}
   m_CullTransparentMesh: 1
+--- !u!1001 &1374259249
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 58.59522
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.179623
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 450.19397
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943795, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2234953822306943796, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: m_Name
+      value: NetworkManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496308758597674878, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: sendRate
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496308758597674878, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: onlineScene
+      value: Assets/Scenes/production.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496308758597674878, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: offlineScene
+      value: Assets/Scenes/production_menu.unity
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496308758597674878, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: playerPrefab
+      value: 
+      objectReference: {fileID: 2487640663474992723, guid: ccebb7f743faee547ab7fc74e8347769,
+        type: 3}
+    - target: {fileID: 5496308758597674878, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: maxConnections
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496308758597674878, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: autoCreatePlayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5496308758597674878, guid: 9fbcc54670d24134f84d94fdca4ff0d5,
+        type: 3}
+      propertyPath: playerSpawnMethod
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9fbcc54670d24134f84d94fdca4ff0d5, type: 3}
 --- !u!1 &1392639085
 GameObject:
   m_ObjectHideFlags: 0

@@ -31,10 +31,17 @@ public class EnemyAI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    //Health System for Bear
     HealthSystemForDummies healthSystem;
+
+    //Audio for the Bear
+    public AudioClip bearSound;
+    private AudioSource audioSource;
 
     private void Awake(){
 
+        bearSound = GetComponent<AudioClip>();
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         player = GameObject.Find("PlayerObj").transform;
         agent = GetComponent<NavMeshAgent>();
@@ -107,6 +114,8 @@ public class EnemyAI : MonoBehaviour
             //
             alreadyAttacked = true;
             animator.SetBool("IsAttacking", true);
+
+            audioSource.PlayOneShot(bearSound);
             healthSystem = GameObject.Find("PlayerObj").GetComponent<HealthSystemForDummies>();
             healthSystem.AddToCurrentHealth(-100);
             Invoke(nameof(ResetAttack), timeBetweenAttacks);

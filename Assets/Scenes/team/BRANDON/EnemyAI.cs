@@ -31,7 +31,10 @@ public class EnemyAI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    HealthSystemForDummies healthSystem;
+
     private void Awake(){
+
         animator = GetComponent<Animator>();
         player = GameObject.Find("PlayerObj").transform;
         agent = GetComponent<NavMeshAgent>();
@@ -104,6 +107,8 @@ public class EnemyAI : MonoBehaviour
             //
             alreadyAttacked = true;
             animator.SetBool("IsAttacking", true);
+            healthSystem = GameObject.Find("PlayerObj").GetComponent<HealthSystemForDummies>();
+            healthSystem.AddToCurrentHealth(-100);
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
     }

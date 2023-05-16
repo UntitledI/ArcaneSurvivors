@@ -40,7 +40,6 @@ public class EnemyAI : MonoBehaviour
 
     private void Awake(){
 
-        bearSound = GetComponent<AudioClip>();
         audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         player = GameObject.Find("PlayerObj").transform;

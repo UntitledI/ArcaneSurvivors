@@ -8,12 +8,10 @@ public class NewAiSpawn : MonoBehaviour
     [SerializeField] private int totalMonsters = 100;
     [SerializeField] private int monstersPerWave = 5;
     [SerializeField] private float timeBetweenWaves = 2f;
-    private Transform playerTransform;
     private List<Transform> spawnPoints = new List<Transform>();
 
     void Start()
     {
-        playerTransform = GameObject.FindGameObjectWithTag("Player").transform;
         GameObject[] spawnPointObjects = GameObject.FindGameObjectsWithTag("SpawnPoint");
         foreach (GameObject spawnPointObject in spawnPointObjects)
         {

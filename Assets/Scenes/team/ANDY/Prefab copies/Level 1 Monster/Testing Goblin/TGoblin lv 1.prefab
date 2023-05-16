@@ -2154,8 +2154,9 @@ GameObject:
   - component: {fileID: -6226314582653393280}
   - component: {fileID: 315577572292025371}
   - component: {fileID: 7342330187525755670}
+  - component: {fileID: -2692493672736937439}
   m_Layer: 0
-  m_Name: Goblin lv 1
+  m_Name: TGoblin lv 1
   m_TagString: Level 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2368,6 +2369,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
+--- !u!114 &-2692493672736937439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838309562495a0244b14dc08b90778c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsAlive: 1
+  CurrentHealth: 1000
+  MaximumHealth: 1000
+  HasAnimationWhenHealthChanges: 1
+  AnimationDuration: 0.1
+  OnCurrentHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnIsAliveChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  OnMaximumHealthChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  HealthBarPrefabToSpawn: {fileID: 8459761256327841958, guid: 8d33425d7a2a5394ba6dc22e7de6306c,
+    type: 3}
 --- !u!1 &150288
 GameObject:
   m_ObjectHideFlags: 0

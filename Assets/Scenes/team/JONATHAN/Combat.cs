@@ -43,7 +43,7 @@ public class Combat : MonoBehaviour
 
         if (Time.time > nextFireTime)
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetButtonDown("Fire2"))
             {
                 OnClick();
             }

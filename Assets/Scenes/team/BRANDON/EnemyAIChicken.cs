@@ -31,7 +31,12 @@ public class EnemyAIChicken : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    //Audio for the Chicken
+    public AudioClip chickenSound;
+    private AudioSource audioSource;
+
     private void Awake(){
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         player = GameObject.Find("PlayerObj").transform;
         agent = GetComponent<NavMeshAgent>();
@@ -102,8 +107,7 @@ public class EnemyAIChicken : MonoBehaviour
             // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             // rb.AddForce(transform.up * 8f, ForceMode.Impulse);
             //
-            alreadyAttacked = true;
-            animator.SetBool("Eat", true);
+            StartCoroutine(waiter());
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
     }
@@ -131,5 +135,14 @@ public class EnemyAIChicken : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, attackRange);
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);    
+    }
+
+    IEnumerator waiter()
+    {
+            alreadyAttacked = true;
+            animator.SetBool("Eat", true);
+
+            audioSource.PlayOneShot(chickenSound);
+            yield return new WaitForSeconds(1);
     }
 }

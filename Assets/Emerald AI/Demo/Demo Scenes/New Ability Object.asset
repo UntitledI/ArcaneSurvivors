@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc1a975727f99e04bbef5ff4da983d6e, type: 3}
+  m_Name: New Ability Object
+  m_EditorClassIdentifier: 
+  AbilityName: fireball
+  AbilityDescription: Ability Description
+  AbilityDamage: 5
+  MinAbilityDamage: 5
+  MaxAbilityDamage: 10
+  AbilityDamagePerIncrement: 5
+  CriticalHitOdds: 6.25
+  CriticalHitMultiplierMin: 1.1
+  CriticalHitMultiplierMax: 1.3
+  AbilityImpactDamage: 5
+  AbilitySupportAmount: 5
+  AbilityDamageIncrement: 1
+  AbilityCooldown: 10
+  AbilityLength: 8
+  SummonRadius: 10
+  ProjectileSpeed: 30
+  ProjectileTimeoutSeconds: 6
+  ColliderRadius: 0.05
+  ProjectileGravity: 0.5
+  TimeoutTime: 4.5
+  CollisionTime: 0
+  HeatSeekingSeconds: 10
+  CastEffectTimeoutSeconds: 1
+  AbilityEffectTimeoutSeconds: 5
+  SummonEffectTimeoutSeconds: 3
+  CollisionTimeout: 1.03
+  DamageOvertimeTimeout: 3
+  GravityAmount: 1
+  AbilityIcon: {fileID: 0}
+  AbilityEffect: {fileID: 7957833072274404953, guid: 3355f6bfa6db8b24281b827de929694c,
+    type: 3}
+  CreateEffect: {fileID: 3744133877081091469, guid: a2a060732547fe64581bb0cb3c2bdf1d,
+    type: 3}
+  SummonEffect: {fileID: 0}
+  SummonObject: {fileID: 0}
+  DamageOverTimeEffect: {fileID: 0}
+  DamageOverTimeSound: {fileID: 0}
+  CollisionEffect: {fileID: 8122930680371318205, guid: a18df73f2295b694e841b6ef2bcf0df2,
+    type: 3}
+  CollisionSoundsList:
+  - {fileID: 8300000, guid: fbad283321c42c04d89eaca77c80f28c, type: 3}
+  SummonSound: {fileID: 0}
+  CreateSoundsList:
+  - {fileID: 8300000, guid: b695e97bb5916b2438b7225892d62942, type: 3}
+  AbilityType: 0
+  DamageType: 0
+  SupportType: 0
+  HighQualityCollisions: 0
+  SoundOnCollisionRef: 1
+  HeatSeekingRef: 1
+  EffectOnCollisionRef: 1
+  CollisionEffectOnTargets: 1
+  ArrowProjectileRef: 0
+  UseGravity: 0
+  UseRandomizedDamage: 0
+  AbilityStacksRef: 0
+  UseDamageOverTimeEffectRef: 0
+  UseDamageOverTimeSoundRef: 0
+  UseCreateSound: 1
+  UseCriticalHits: 0
+  UseCustomAbilityIcon: 0
+  UseCreateEffect: 1
+  AbilityEditorTabs: 2

@@ -14,6 +14,10 @@ TagManager:
   - vehicle
   - SurfaceToClimb
   - Animal
+  - Respawnv2
+  - grass
+  - wood
+  - stone
   layers:
   - Default
   - TransparentFX

@@ -10,14 +10,12 @@ public class SwordDamage : NetworkBehaviour
         if (!isServer) return; // Damage calculation should only happen on the server
 
         var hit = collision.gameObject;
-        var health = hit.GetComponent<Health>(); // Assumes a 'Health' script is attached to player and enemies
+        var health = hit.GetComponent<HealthNetworkV2>(); // Updated to HealthNetworkV2
 
         if (health != null)
         {
             health.TakeDamage(damage); // Call a method to decrease health
         }
 
-        // Destroy the sword after it hits something
-        NetworkServer.Destroy(gameObject);
     }
 }

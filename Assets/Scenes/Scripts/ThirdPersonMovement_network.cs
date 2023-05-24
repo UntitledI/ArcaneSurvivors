@@ -1,140 +1,120 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using Mirror;
+using UnityEngine;
 
 public class ThirdPersonMovement_network : NetworkBehaviour
 {
-    //Essentials
     public CharacterController controller;
+    public float walkSpeed = 2f;
+    public float sprintSpeed = 5f;
+    public float jumpHeight = 1f;
+    public float gravity = -9.8f;
+    public float rotationSpeed = 0.1f;
     public Transform cam;
-    public float turnSmoothTime = 0.1f;
-    public float turnSmoothVelocity;
 
-    //Movement
-    public float walkSpeed;
-    public float sprintSpeed;
-    bool sprinting;
-    float trueSpeed;
-    public float sensitivity = 150f;
-    //Jumping
-    public float jumpHeight;
-    public float gravity;
-    bool isGrounded;
-    Vector3 velocity;
+    private float speed;
+    private Vector3 velocity;
+    private bool isGrounded;
+    private float groundDistance = 0.4f;
+    public Transform groundCheck;
+    public LayerMask groundMask;
 
     private Animator animator;
+    private FootstepSounds footstepSounds;
 
-    // Ground Layer
-    public LayerMask groundLayer;
+    private void Start()
+    {
+        if(controller == null)
+        {
+            controller = GetComponent<CharacterController>();
+        }
 
-    void Awake()
-    {
-        animator = GetComponentInChildren<Animator>();
-        controller = GetComponent<CharacterController>();
-    }
-    void Start()
-    {
-        trueSpeed = walkSpeed;
-        animator = GetComponentInChildren<Animator>();
-        controller = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
+        footstepSounds = GetComponent<FootstepSounds>();
     }
 
-    // Update is called once per frame
-    void Update()
+    [Command]
+    void CmdJump()
     {
-        if (!isLocalPlayer) return;
+        if (isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            RpcJump(velocity.y);
+        }
+    }
 
-        // Updated isGrounded check
-        isGrounded = Physics.CheckSphere(transform.position, .1f, groundLayer);
-        animator.SetBool("IsGrounded", isGrounded);
+    [ClientRpc]
+    void RpcJump(float velocityY)
+    {
+        velocity.y = velocityY;
+    }
+
+
+    private void Update()
+    {
+        if (!isLocalPlayer)
+        {
+            return;
+        }
+
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
         if (isGrounded && velocity.y < 0)
         {
-            velocity.y = -1;
+            velocity.y = -2f;
         }
 
-        //Enables Sprinting
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
+
+        Vector3 moveDirection = new Vector3(x, 0f, z);
+        Vector3 move = cam.right * moveDirection.x + cam.forward * moveDirection.z;
+        move.y = 0f;  // This ensures the vertical component is zero
+
+        speed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
+
+        controller.Move(move * speed * Time.deltaTime);
+
+        // Rotate character to face movement direction
+        if (move != Vector3.zero)
         {
-            trueSpeed = sprintSpeed;
-            sprinting = true;
+            Quaternion toRotation = Quaternion.LookRotation(move, Vector3.up);
+            transform.rotation = Quaternion.Slerp(transform.rotation, toRotation, rotationSpeed);
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
+
+        if (Input.GetButtonDown("Jump"))
         {
-            trueSpeed = walkSpeed;
-            sprinting = false;
-        }
-        //retains animations positions and angles
-        animator.transform.localPosition = Vector3.zero;
-        animator.transform.localEulerAngles = Vector3.zero;
-        //retrieves cursor coordinate input
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
-
-
-        //Moves the character in the direction of the camera
-        if (direction.magnitude >= 0.1f)
-        {
-            //calculates the target angle the character is facing with the camera
-            float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + transform.eulerAngles.y;
-
-            //smoothes out the rate at which the character rotates
-            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            //executes the rotation of the character
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
-
-            //moves the character in the direction of the camera
-            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-            //Moves the character through characterController object
-            controller.Move(moveDir.normalized * trueSpeed * Time.deltaTime);
-
-            //flags to determine when player is walking/sprinting
-            if (sprinting == true)
-            {
-                animator.SetFloat("Speed", 2);
-            }
-            else
-            {
-                animator.SetFloat("Speed", 1);
-            }
-        }
-        else
-        {
-            animator.SetFloat("Speed", 0);
-        }
-        //Jumping
-        if(Input.GetButtonDown("Jump") && controller.isGrounded)
-        {
-            velocity.y = Mathf.Sqrt((jumpHeight * 10) * -2f * gravity);
+           CmdJump();
         }
 
-        if(velocity.y > -20)
-        {
-            velocity.y += (gravity * 10) * Time.deltaTime;
-        }
+        velocity.y += gravity * Time.deltaTime;
+
         controller.Move(velocity * Time.deltaTime);
-        // Sync animations for other players
-        CmdSyncAnimations(animator.GetFloat("Speed"), isGrounded);
+
+        // Update the speed in the animator
+        animator.SetFloat("Speed", move.magnitude * speed);
+
+        // If the character has stopped moving, stop the footstep sounds
+        if (controller.velocity.magnitude == 0f)
+        {
+            footstepSounds.CancelInvoke(nameof(footstepSounds.PlayFootstep));
+        }
+        // If the character has started moving, start the footstep sounds
+        else if (!footstepSounds.IsInvoking(nameof(footstepSounds.PlayFootstep)))
+        {
+            footstepSounds.InvokeRepeating(nameof(footstepSounds.PlayFootstep), 0, Random.Range(footstepSounds.MinInterval, footstepSounds.MaxInterval));
+        }
+
+
+    // This part checks if the player is moving and plays footstep sound
+    if (move.magnitude >= 0.5f && footstepSounds.CanPlaySound())
+    {
+        footstepSounds.PlayFootstep();
+        footstepSounds.ResetTimer();
+
+        Debug.Log("Trying to play footstep sound"); // Inside condition
     }
 
-
-
-    [Command]
-        void CmdSyncAnimations(float speed, bool grounded)
-        {
-            RpcSyncAnimations(speed, grounded);
-        }
-
-        [ClientRpc]
-        void RpcSyncAnimations(float speed, bool grounded)
-        {
-            if (isLocalPlayer) return;
-
-            animator.SetFloat("Speed", speed);
-            animator.SetBool("IsGrounded", grounded);
-        }
+    }
 }
+
 

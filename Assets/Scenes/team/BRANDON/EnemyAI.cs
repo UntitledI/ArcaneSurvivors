@@ -31,7 +31,16 @@ public class EnemyAI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInSightRange, playerInAttackRange;
 
+    //Health System for Bear
+    HealthSystemForDummies healthSystem;
+
+    //Audio for the Bear
+    public AudioClip bearSound;
+    private AudioSource audioSource;
+
     private void Awake(){
+
+        audioSource = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
         player = GameObject.Find("PlayerObj").transform;
         agent = GetComponent<NavMeshAgent>();
@@ -102,8 +111,7 @@ public class EnemyAI : MonoBehaviour
             // rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             // rb.AddForce(transform.up * 8f, ForceMode.Impulse);
             //
-            alreadyAttacked = true;
-            animator.SetBool("IsAttacking", true);
+            StartCoroutine(waiter());
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }
     }
@@ -131,5 +139,16 @@ public class EnemyAI : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, attackRange);
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);    
+    }
+
+    IEnumerator waiter()
+    {
+            alreadyAttacked = true;
+            animator.SetBool("IsAttacking", true);
+
+            audioSource.PlayOneShot(bearSound);
+            healthSystem = GameObject.Find("PlayerObj").GetComponent<HealthSystemForDummies>();
+            healthSystem.AddToCurrentHealth(-100);
+            yield return new WaitForSeconds(1);
     }
 }

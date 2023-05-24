@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f5c8f6b08e27f0d4e8f6c5a710bb6d1a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player: {fileID: 919132149155446097, guid: b62a14186f8ba634e9f49d818f12fc7c, type: 3}
+  - meteorPrefab: {fileID: 7625519671783608523, guid: b7dc6f5c2cb87e841b65a16631749418,
+      type: 3}
+  - ring: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - castAudioClip: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

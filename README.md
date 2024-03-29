@@ -1,6 +1,6 @@
 # csc631-arcane-survivors
 ## Overview:  
-As the lead UI/UX designer and developer for Arcane Survivors, I spearheaded the design and implementation of the user interface (UI) for the game, as well as the player abilities and movement mechanics. Arcane Survivors is a top-down survival game set in a magical world where players must navigate treacherous environments, battle enemies, and uncover ancient secrets.  
+As the lead UI/UX designer and developer for Arcane Survivors, I spearheaded the design and implementation of the user interface (UI) for the game, as well as the player abilities and movement mechanics. Arcane Survivors is a third person RPG survival game set in a rural village suddenly attacked by a demon lord! Survive waves of enemies, upgrade abilities, and save the village! 
 
 ### Technologies Used:  
 
